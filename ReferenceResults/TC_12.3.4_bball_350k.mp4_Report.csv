@@ -1,0 +1,32 @@
+ SSIMWave's Video Quality-of-Experience Monitor with a CLI for Windows (SQM-CLI-Win), Version 1.5.31.383
+
+Reference video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\ViaSat\bball_reference.mp4,PID, N/A
+Test video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\ViaSat\bball_350k.mp4,PID, 1
+
+Report Date, 30-Jan, Report Time, 13:20:32
+Test Video's Bit-rate, 362 kbps, Reference Video's Bit-rate, 5809 kbps
+Test Video's Resolution, 720x540, Reference Video's Resolution, 1440x1080
+Test Video's Framerate, 29.97, Reference Video's Framerate, 29.97
+Number of frames processed, 100
+
+SSIMplus QoE Scores Summary
+Statistic. Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ
+Maximum,6.992e+188,9.867,9.867,11.97,11.97,9.8,9.8,10.23,10.23,8.767,8.767,9.767,9.767
+Minimum,101,8.909,8.909,10.91,10.91,8.727,8.727,8.909,8.909,7.273,7.273,8.727,8.727
+Mean,6.992e+188,9.66,9.533,11.54,11.44,9.21,9.132,9.7,9.568,8.15,8.01,9.2,9.123
+Standard Deviation,0,0.4325,0.4325,0.4554,0.4554,0.4636,0.4636,0.5671,0.5671,0.61,0.61,0.4476,0.4476
+Excellent (81-100),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Good (61-80),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Fair (41-60),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Poor (21-40),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Bad (0-20),0%,4%,4%,4%,4%,4%,4%,4%,4%,4%,4%,4%,4%
+Below threshold (0-70),0%,4%,4%,4%,4%,4%,4%,4%,4%,4%,4%,4%,4%
+Reference Video Temporal Alignment Offset (frames),0
+Test Video Temporal Alignment Offset (frames),0
+
+  SSIMplus QoE Scores 
+Reference Video Period Start (sec), Reference Video Period End (sec), Test Video Period Start (sec), Test Video Period End (sec), Source_Qaulity,SSIMplusCore,SSIMplusCore_DR,iPhone 6 Plus,iPhone 6 Plus_DR,iPad Air 2,iPad Air 2_DR,VT60,VT60_DR,ThinkPad W540,ThinkPad W540_DR,Macbook Pro,Macbook Pro_DR,
+0,1,0,1,0,9,9,11,11,9,9,10,10,8,8,9,9
+1,2,1,2,0,9,9,11,11,9,9,9,9,8,8,9,9
+2,3,2,3,0,9,9,11,11,9,9,9,9,8,8,9,9
+3,3.337,3,3.337,0,8,8,10,10,8,8,8,8,7,7,8,8

@@ -1,0 +1,18 @@
+Test Case Number,Expected(Pass or Fail), Result, Description,Command, Conditions Checked
+
+,,Test and verify different resolution videos:
+1.1.1,P,PASS,mp4,..\Bin\SQMLib\Windows\SQM.exe -r C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 -d C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_1440x960.mp4 -m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro -lt file -lf ..\Logs\2017-02-23 16h29m01s\TC_1.1.1_Test_1440x960.mp4.log -rf ..\Logs\2017-02-23 16h29m01s\TC_1.1.1_Test_1440x960.mp4_Report.csv -f2p 10,   The string "task is finished" is found in the log file as expected.    Report CSV DOESN'T matche the gold file as expected.    Performance values are within expected range as expected.    Warning as expected.    Error as expected.  
+1.1.2,P,PASS,mp4,..\Bin\SQMLib\Windows\SQM.exe -r C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 -d C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_1280x854.mp4 -m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro -lt file -lf ..\Logs\2017-02-23 16h29m01s\TC_1.1.2_Test_1280x854.mp4.log -rf ..\Logs\2017-02-23 16h29m01s\TC_1.1.2_Test_1280x854.mp4_Report.csv -f2p 10,   The string "task is finished" is found in the log file as expected.    Report CSV DOESN'T matche the gold file as expected.    Performance values are within expected range as expected.    Warning as expected.    Error as expected.  
+1.1.3,P,PASS,mp4,..\Bin\SQMLib\Windows\SQM.exe -r C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 -d C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_1152x768.mp4 -m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro -lt file -lf ..\Logs\2017-02-23 16h29m01s\TC_1.1.3_Test_1152x768.mp4.log -rf ..\Logs\2017-02-23 16h29m01s\TC_1.1.3_Test_1152x768.mp4_Report.csv -f2p 10,   The string "task is finished" is found in the log file as expected.    Report CSV DOESN'T matche the gold file as expected.    Performance values are within expected range as expected.    Warning as expected.    Error as expected.  
+1.1.4,P,PASS,mp4,..\Bin\SQMLib\Windows\SQM.exe -r C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 -d C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 -m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro -lt file -lf ..\Logs\2017-02-23 16h29m01s\TC_1.1.4_Test_480x320.mp4.log -rf ..\Logs\2017-02-23 16h29m01s\TC_1.1.4_Test_480x320.mp4_Report.csv -f2p 10,   The string "task is finished" is found in the log file as expected.    Report CSV DOESN'T matche the gold file as expected.    Performance values are within expected range as expected.    Warning as expected.    Error as expected.  
+
+Test Run Settings
+Starting TC Number: 1.1.1
+Ending TC Number: 1.1.4
+Frames to process setting: 10
+
+Test Summary Report
+
+Total Number of Test Cases: 4
+Total Number of Pass Test Cases: 4
+Total Number of Fail Test Cases: 0

@@ -1,0 +1,10 @@
+..\Bin\SQMLib\Windows\SQM.exe -r C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 -d C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 -m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro -lt file -lf ..\Logs\2017-02-23 16h29m01s\TC_1.1.4_Test_480x320.mp4.log -rf ..\Logs\2017-02-23 16h29m01s\TC_1.1.4_Test_480x320.mp4_Report.csv -f2p 10 
+Command output: 
+==============================================================
+ SSIMWave's Video QoE Measurement Library (CLI)
+ Version 1.5.31.383
+==============================================================
+
+Progress status: [--------------------]   0%      [##------------------]  10% *    [####----------------]  20% *    [######--------------]  30% *    [########------------]  40% *    [##########----------]  50% *    [############--------]  60% *    [##############------]  70% *    [################----]  80% *    [##################--]  90% *    [###################-]  99% *    [####################] 100% *****
+
+Process is completed.

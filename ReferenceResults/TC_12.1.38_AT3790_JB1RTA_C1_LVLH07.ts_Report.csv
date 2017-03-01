@@ -1,0 +1,37 @@
+ SSIMWave's Video Quality-of-Experience Monitor with a CLI for Windows (SQM-CLI-Win), Version 1.5.31.383
+
+Reference video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\Comcast\JB1RTA_1080i_60.ts,PID, N/A
+Test video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\Comcast\AT3790_JB1RTA_C1_LVLH07.ts,PID, 1
+
+Report Date, 30-Jan, Report Time, 12:44:09
+Test Video's Bit-rate, 5675 kbps, Reference Video's Bit-rate, 16266 kbps
+Test Video's Resolution, 1280x720, Reference Video's Resolution, 1920x1080
+Test Video's Framerate, 59.94, Reference Video's Framerate, 59.94
+Number of frames processed, 9
+
+SSIMplus QoE Scores Summary
+Statistic,Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ
+Maximum,94,87,82,94,90,90,85,91,86,86,82,89,84
+Minimum,94,84,80,92,88,88,84,89,85,85,81,88,83
+Mean,94,85.33,81.22,93.11,88.78,89,84.44,89.89,85.33,85.67,81.22,88.56,83.56
+Standard Deviation,6.616e-029,1,0.8333,0.7817,0.6667,0.7071,0.527,0.6009,0.5,0.5,0.441,0.527,0.527
+Excellent (81-100),100%,100%,77.78%,100%,100%,100%,100%,100%,100%,100%,100%,100%,100%
+Good (61-80),0%,0%,22.22%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Fair (41-60),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Poor (21-40),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Bad (0-20),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Below threshold (0-70),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Reference Video Temporal Alignment Offset (frames),2
+Test Video Temporal Alignment Offset (frames),1
+
+  SSIMplus QoE Scores 
+Reference frame index, Test frame index, Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ,
+3,2,94,84,80,92,88,88,84,89,85,85,81,88,83
+4,3,94,84,80,92,88,88,84,89,85,85,81,88,83
+5,4,94,85,81,93,88,89,84,90,85,85,81,88,83
+6,5,94,85,81,93,89,89,84,90,85,86,81,88,83
+7,6,94,85,81,93,89,89,84,90,85,86,81,89,84
+8,7,94,86,82,93,89,89,85,90,85,86,81,89,84
+9,8,94,86,82,94,89,89,85,90,86,86,81,89,84
+10,9,94,87,82,94,90,90,85,91,86,86,82,89,84
+11,10,94,86,82,94,89,90,85,90,86,86,82,89,84

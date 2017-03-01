@@ -1,0 +1,39 @@
+ SSIMWave's Video Quality-of-Experience Monitor with a CLI for Windows (SQM-CLI-Win), Version 1.5.31.383
+
+Reference video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\B_Sky_B\Ref_football_yuv420.avi,PID, N/A
+Test video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\B_Sky_B\Test_football_yuv420.mp4,PID, 1
+
+Report Date, 30-Jan, Report Time, 13:42:37
+Test Video's Bit-rate, 526 kbps, Reference Video's Bit-rate, 647330 kbps
+Test Video's Resolution, 1920x1080, Reference Video's Resolution, 1920x1080
+Test Video's Framerate, 25, Reference Video's Framerate, 25
+Number of frames processed, 270
+
+SSIMplus QoE Scores Summary
+Statistic. Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ
+Maximum,6.992e+188,60.88,1.546e+257,74.1,4.868e+271,66.95,1.355e+276,69.81,7.757e+259,63.72,1.401e+242,67.05,1.359e-308
+Minimum,101,55.12,101,66.92,101,60.92,101,63.04,101,57.77,2.128e-049,61,5.408e-312
+Mean,6.992e+188,57.4,7.421e+256,68.99,1.34e+271,63.33,8.177e+275,65.44,7.052e+258,60.28,1.887e+241,63.42,4.029e-309
+Standard Deviation,1.#IO,1.768,1.#IO,2.191,1.#IO,1.969,1.#IO,2.087,1.#IO,1.892,1.#IO,1.966,0
+Excellent (81-100),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Good (61-80),0%,0.3704%,0%,4.074%,0%,4.074%,0%,4.074%,0%,1.852%,0%,4.074%,0%
+Fair (41-60),0%,3.704%,0%,0%,0%,0%,0%,0%,0%,2.222%,0%,0%,0%
+Poor (21-40),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Bad (0-20),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,3.333%,0%,4.074%
+Below threshold (0-70),0%,4.074%,0%,2.963%,0%,4.074%,0%,4.074%,0%,4.074%,3.333%,4.074%,4.074%
+Reference Video Temporal Alignment Offset (frames),11
+Test Video Temporal Alignment Offset (frames),11
+
+  SSIMplus QoE Scores 
+Reference Video Period Start (sec), Reference Video Period End (sec), Test Video Period Start (sec), Test Video Period End (sec), Source_Qaulity,SSIMplusCore,SSIMplusCore_DR,iPhone 6 Plus,iPhone 6 Plus_DR,iPad Air 2,iPad Air 2_DR,VT60,VT60_DR,ThinkPad W540,ThinkPad W540_DR,Macbook Pro,Macbook Pro_DR,
+0.44,1.44,0.44,1.44,0,60,-2147483648,71,-2147483648,66,-2147483648,68,-2147483648,63,-2147483648,66,0
+1.44,2.44,1.44,2.44,0,55,-2147483648,67,-2147483648,61,-2147483648,63,-2147483648,58,-2147483648,61,0
+2.44,3.44,2.44,3.44,0,55,-2147483648,66,-2147483648,60,-2147483648,63,-2147483648,57,0,61,0
+3.44,4.44,3.44,4.44,0,57,-2147483648,67,-2147483648,62,-2147483648,64,-2147483648,59,0,62,0
+4.44,5.44,4.44,5.44,0,56,-2147483648,68,-2147483648,62,-2147483648,64,-2147483648,59,0,62,0
+5.44,6.44,5.44,6.44,0,55,-2147483648,68,-2147483648,61,-2147483648,64,-2147483648,58,0,62,0
+6.44,7.44,6.44,7.44,0,58,-2147483648,68,-2147483648,63,-2147483648,65,-2147483648,61,0,63,0
+7.44,8.44,7.44,8.44,0,57,-2147483648,67,-2147483648,62,-2147483648,64,-2147483648,59,0,62,0
+8.44,9.44,8.44,9.44,0,59,-2147483648,69,-2147483648,63,-2147483648,65,-2147483648,61,0,64,0
+9.44,10.44,9.44,10.44,0,57,-2147483648,70,-2147483648,64,-2147483648,66,-2147483648,60,0,64,0
+10.44,11.24,10.44,11.24,0,58,-2147483648,74,-2147483648,66,-2147483648,69,-2147483648,63,0,67,0

@@ -1,0 +1,31 @@
+ SSIMWave's Video Quality-of-Experience Monitor with a CLI for Windows (SQM-CLI-Win), Version 1.5.31.383
+
+Reference video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\Comcast\htcs_prores_5sec_elemental.mov,PID, N/A
+Test video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\Comcast\htcs_prores_5sec_elemental_1280X720.ts,PID, 1
+
+Report Date, 30-Jan, Report Time, 13:12:54
+Test Video's Bit-rate, 2325 kbps, Reference Video's Bit-rate, 1612141 kbps
+Test Video's Resolution, 1280x720, Reference Video's Resolution, 3840x2160
+Test Video's Framerate, 29.97, Reference Video's Framerate, 59.94
+Number of frames processed, 62
+
+SSIMplus QoE Scores Summary
+Statistic. Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ
+Maximum,6.992e+188,4.033,4.033,3.267,3.267,3.3,3.3,3.233,3.233,3.333,3.333,3.267,3.267
+Minimum,101,0,0,0,0,0,0,0,0,0,0,0,0
+Mean,6.992e+188,1.984,1.377,1.581,1.089,1.597,1.1,1.565,1.078,1.613,1.111,1.581,1.089
+Standard Deviation,0,2.301,2.301,1.886,1.886,1.905,1.905,1.867,1.867,1.925,1.925,1.886,1.886
+Excellent (81-100),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Good (61-80),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Fair (41-60),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Poor (21-40),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Bad (0-20),0%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%
+Below threshold (0-70),0%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%,4.839%
+Reference Video Temporal Alignment Offset (frames),32
+Test Video Temporal Alignment Offset (frames),33
+
+  SSIMplus QoE Scores 
+Reference Video Period Start (sec), Reference Video Period End (sec), Test Video Period Start (sec), Test Video Period End (sec), Source_Qaulity,SSIMplusCore,SSIMplusCore_DR,iPhone 6 Plus,iPhone 6 Plus_DR,iPad Air 2,iPad Air 2_DR,VT60,VT60_DR,ThinkPad W540,ThinkPad W540_DR,Macbook Pro,Macbook Pro_DR,
+ , ,1.101,2.101,0,4,4,3,3,3,3,3,3,3,3,3,3
+ , ,2.101,3.101,0,0,0,0,0,0,0,0,0,0,0,0,0
+ , ,3.101,3.17,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,38 @@
+ SSIMWave's Video Quality-of-Experience Monitor with a CLI for Windows (SQM-CLI-Win), Version 1.5.31.215
+
+Reference video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\6-Encoders\Ref_768x432_29.97fps_mpeg4.mp4,PID, N/A
+Test video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\6-Encoders\Test_768x432_29.97fps_mpeg4.mp4,PID, 1
+
+Report Date, 21-Dec, Report Time, 13:49:35
+Test Video's Bit-rate, 253 kbps, Reference Video's Bit-rate, 2132 kbps
+Test Video's Resolution, 768x432, Reference Video's Resolution, 768x432
+Test Video's Framerate, 29.97, Reference Video's Framerate, 29.97
+Number of frames processed, 10
+
+SSIMplus QoE Scores Summary
+Statistic,SSIMplusCore,iPhone 6 Plus,iPad Air 2,VT60,ThinkPad W540,Macbook Pro
+Maximum,48,39,26,29,20,26
+Minimum,48,39,26,29,20,25
+Mean,48,39,26,29,20,25.6
+Standard Deviation,0,0,0,0,0,0.5164
+Excellent (81-100),0%,0%,0%,0%,0%,0%
+Good (61-80),0%,0%,0%,0%,0%,0%
+Fair (41-60),100%,0%,0%,0%,0%,0%
+Poor (21-40),0%,100%,100%,100%,0%,100%
+Bad (0-20),0%,0%,0%,0%,100%,0%
+Below threshold (0-70),100%,100%,100%,100%,100%,100%
+Reference Video Temporal Alignment Offset (frames),0
+Test Video Temporal Alignment Offset (frames),0
+
+  SSIMplus QoE Scores 
+Reference frame index, Test frame index,SSIMplusCore,iPhone 6 Plus,iPad Air 2,VT60,ThinkPad W540,Macbook Pro,
+1,1,48,39,26,29,20,25
+2,2,48,39,26,29,20,25
+3,3,48,39,26,29,20,25
+4,4,48,39,26,29,20,25
+5,5,48,39,26,29,20,26
+6,6,48,39,26,29,20,26
+7,7,48,39,26,29,20,26
+8,8,48,39,26,29,20,26
+9,9,48,39,26,29,20,26
+10,10,48,39,26,29,20,26

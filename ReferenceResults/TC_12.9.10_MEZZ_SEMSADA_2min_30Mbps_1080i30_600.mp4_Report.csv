@@ -1,0 +1,38 @@
+ SSIMWave's Video Quality-of-Experience Monitor with a CLI for Windows (SQM-CLI-Win), Version 1.5.31.383
+
+Reference video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\Telefonica\MEZZ_SEMSADA_2min_30Mbps_1080i30.ts,PID, N/A
+Test video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\Telefonica\MEZZ_SEMSADA_2min_30Mbps_1080i30_600.mp4,PID, 1
+
+Report Date, 30-Jan, Report Time, 14:00:33
+Test Video's Bit-rate, 14584 kbps, Reference Video's Bit-rate, 715159 kbps
+Test Video's Resolution, 480x270, Reference Video's Resolution, 1920x1080
+Test Video's Framerate, 29.97, Reference Video's Framerate, 29.97
+Number of frames processed, 10
+
+SSIMplus QoE Scores Summary
+Statistic,Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ
+Maximum,98,95,93,71,71,57,57,58,58,57,57,57,57
+Minimum,97,95,92,71,70,57,57,58,58,57,57,57,57
+Mean,97.9,95,92.9,71,70.9,57,57,58,58,57,57,57,57
+Standard Deviation,0.1,0,0.3162,0,0.3162,0,0,0,0,0,0,0,0
+Excellent (81-100),100%,100%,100%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Good (61-80),0%,0%,0%,100%,100%,0%,0%,0%,0%,0%,0%,0%,0%
+Fair (41-60),0%,0%,0%,0%,0%,100%,100%,100%,100%,100%,100%,100%,100%
+Poor (21-40),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Bad (0-20),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Below threshold (0-70),0%,0%,0%,0%,10%,100%,100%,100%,100%,100%,100%,100%,100%
+Reference Video Temporal Alignment Offset (frames),1000
+Test Video Temporal Alignment Offset (frames),1000
+
+  SSIMplus QoE Scores 
+Reference frame index, Test frame index, Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ,
+1001,1001,97,95,92,71,70,57,57,58,58,57,57,57,57
+1002,1002,98,95,93,71,71,57,57,58,58,57,57,57,57
+1003,1003,98,95,93,71,71,57,57,58,58,57,57,57,57
+1004,1004,98,95,93,71,71,57,57,58,58,57,57,57,57
+1005,1005,98,95,93,71,71,57,57,58,58,57,57,57,57
+1006,1006,98,95,93,71,71,57,57,58,58,57,57,57,57
+1007,1007,98,95,93,71,71,57,57,58,58,57,57,57,57
+1008,1008,98,95,93,71,71,57,57,58,58,57,57,57,57
+1009,1009,98,95,93,71,71,57,57,58,58,57,57,57,57
+1010,1010,98,95,93,71,71,57,57,58,58,57,57,57,57

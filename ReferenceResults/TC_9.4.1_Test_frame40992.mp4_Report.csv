@@ -1,0 +1,29 @@
+ SSIMWave's Video Quality-of-Experience Monitor with a CLI for Windows (SQM-CLI-Win), Version 1.5.31.215
+
+Reference video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\9-QA_Features\MeasurementPeriod\Ref_frame40992.mp4,PID, N/A
+Test video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\9-QA_Features\MeasurementPeriod\Test_frame40992.mp4,PID, 1
+
+Report Date, 21-Dec, Report Time, 13:51:56
+Test Video's Bit-rate, 5018 kbps, Reference Video's Bit-rate, 5785 kbps
+Test Video's Resolution, 720x404, Reference Video's Resolution, 720x404
+Test Video's Framerate, 23, Reference Video's Framerate, 23
+Number of frames processed, 10
+
+SSIMplus QoE Scores Summary
+Statistic,SSIMplusCore,iPhone 6 Plus,iPad Air 2,VT60,ThinkPad W540,Macbook Pro
+Maximum,97.5,79,68.7,69.8,61.1,67.3
+Minimum,97.5,79,68.7,69.8,61.1,67.3
+Mean,97.5,79,68.7,69.8,61.1,67.3
+Standard Deviation,0,0,0,0,0,0
+Excellent (81-100),10%,0%,0%,0%,0%,0%
+Good (61-80),0%,10%,10%,10%,10%,10%
+Fair (41-60),0%,0%,0%,0%,0%,0%
+Poor (21-40),0%,0%,0%,0%,0%,0%
+Bad (0-20),0%,0%,0%,0%,0%,0%
+Below threshold (0-70),0%,0%,10%,10%,10%,10%
+Reference Video Temporal Alignment Offset (frames),0
+Test Video Temporal Alignment Offset (frames),0
+
+  SSIMplus QoE Scores 
+Reference Video Period Start (sec), Reference Video Period End (sec), Test Video Period Start (sec), Test Video Period End (sec),SSIMplusCore,iPhone 6 Plus,iPad Air 2,VT60,ThinkPad W540,Macbook Pro,
+0,0.4348,0,0.4348,97,79,68,69,61,67

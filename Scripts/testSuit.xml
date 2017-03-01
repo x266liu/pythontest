@@ -1,0 +1,928 @@
+<framework>
+	<testsuite name="systemTests">
+		<testcase number = "1.1"
+				  description = "Resolutions Test" 
+				  string = "AspectRatio = 3:2"
+				  expectedresult = "P"
+				  subfolder ="1-3over2"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  yuvcommand = ""
+				  yuvcommandlist = "1440 960 29.97 8 1440 960 29.97 8,1280 854 29.97 8 1440 960 29.97 8,1152 768 29.97 8 1440 960 29.97 8,480 320 29.97 8 1440 960 29.97 8"
+				  yuvdistvideos = "Test_1440x960_29.97fps_8bit_yuv420p.yuv,Test_1280x854_29.97fps_8bit_yuv420p.yuv,Test_1152x768_29.97fps_8bit_yuv420p.yuv,Test_480x320_29.97fps_8bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_1440x960_29.97fps_8bit_yuv420p.yuv"
+				  distVideos =  "Test_1440x960.mp4,Test_1280x854.mp4,Test_1152x768.mp4,Test_480x320.mp4"
+				  refVideos =  "Ref_1440x960.mp4"
+				  output = "TC_1.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>  
+
+		<testcase number = "1.2"
+				  description = "Resolutions Test" 
+				  string = "AspectRatio = 4:3"
+				  expectedresult = "P"
+				  subfolder ="2-4over3"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "320 240 29.97 8 2048 1536 29.97 8,384 288 29.97 8 2048 1536 29.97 8,640 480 29.97 8 2048 1536 29.97 8,768 576 29.97 8 2048 1536 29.97 8,800 600 29.97 8 2048 1536 29.97 8,1024 768 29.97 8 2048 1536 29.97 8,1152 864 29.97 8 2048 1536 29.97 8,1280 960 29.97 8 2048 1536 29.97 8,1400 1050 29.97 8 2048 1536 29.97 8,1440 1080 29.97 8 2048 1536 29.97 8,1600 1200 29.97 8 2048 1536 29.97 8,2048 1536 29.97 8 2048 1536 29.97 8"
+				  yuvdistvideos = "Test_320x240_29.97fps_8bit_yuv420p.yuv,Test_384x288_29.97fps_8bit_yuv420p.yuv,Test_640x480_29.97fps_8bit_yuv420p.yuv,Test_768x576_29.97fps_8bit_yuv420p.yuv,Test_800x600_29.97fps_8bit_yuv420p.yuv,Test_1024x768_29.97fps_8bit_yuv420p.yuv,Test_1152x864_29.97fps_8bit_yuv420p.yuv,Test_1280x960_29.97fps_8bit_yuv420p.yuv,Test_1400x1050_29.97fps_8bit_yuv420p.yuv,Test_1440x1080_29.97fps_8bit_yuv420p.yuv,Test_1600x1200_29.97fps_8bit_yuv420p.yuv,Test_2048x1536_29.97fps_8bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_2048x1536_29.97fps_8bit_yuv420p.yuv"
+
+				  distVideos =  "Test_320x240.mp4,Test_384x288.mp4,Test_640x480.mp4,Test_768x576.mp4,Test_800x600.mp4,Test_1024x768.mp4,Test_1152x864.mp4,Test_1280x960.mp4,Test_1400x1050.mp4,Test_1440x1080.mp4,Test_1600x1200.mp4,Test_2048x1536.mp4"
+				  refVideos =  "Ref_2048x1536.mp4"
+				  output = "TC_1.2."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>  
+	
+
+		<testcase number = "1.3"
+				  description = "Resolutions Test" 
+				  string = "AspectRatio = 5:3"
+				  expectedresult = "P"
+				  subfolder ="3-5over3"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "800 480 29.97 8 1280 768 29.97 8,1280 768 29.97 8 1280 768 29.97 8"
+				  yuvdistvideos = "Test_800x480_29.97fps_8bit_yuv420p.yuv,Test_1280x768_29.97fps_8bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_1280x768_29.97fps_8bit_yuv420p.yuv"
+				  
+				  distVideos =  "Test_800x480.mp4,Test_1280x768.mp4"
+				  refVideos =  "Ref_1280x768.mp4"
+				  output = "TC_1.3."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>  
+		
+		
+		<testcase number = "1.4"
+				  description = "Resolutions Test" 
+				  string = "AspectRatio = 5:4"
+				  expectedresult = "P"
+				  subfolder ="4-5over4"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "1280 1024 29.97 8 2560 2048 29.97 8,2560 2048 29.97 8 2560 2048 29.97 8"
+				  yuvdistvideos = "Test_1280x1024_29.97fps_8bit_yuv420p.yuv,Test_2560x2048_29.97fps_8bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_2560x2048_29.97fps_8bit_yuv420p.yuv"
+
+				  distVideos =  "Test_1280x1024.mp4,Test_2560x2048.mp4"
+				  refVideos =  "Ref_2560x2048.mp4"
+				  output = "TC_1.4."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+			
+		<testcase number = "1.5"
+				  description = "Resolutions Test" 
+				  string = "AspectRatio = 8:5"
+				  expectedresult = "P"
+				  subfolder ="5-8over5"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"  
+
+				  yuvcommand = ""
+				  yuvcommandlist = "320 200 29.97 8 2560 1600 29.97 8,1280 800 29.97 8 2560 1600 29.97 8,1440 900 29.97 8 2560 1600 29.97 8,1680 1050 29.97 8 2560 1600 29.97 8,1920 1200 29.97 8 2560 1600 29.97 8,2560 1600 29.97 8 2560 1600 29.97 8"
+				  yuvdistvideos = "Test_320x200_29.97fps_8bit_yuv420p.yuv,Test_1280x800_29.97fps_8bit_yuv420p.yuv,Test_1440x900_29.97fps_8bit_yuv420p.yuv,Test_1680x1050_29.97fps_8bit_yuv420p.yuv,Test_1920x1200_29.97fps_8bit_yuv420p.yuv,Test_2560x1600_29.97fps_8bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_2560x1600_29.97fps_8bit_yuv420p.yuv"
+				    		
+				  distVideos =  "Test_320x200.mp4,Test_1280x800.mp4,Test_1440x900.mp4,Test_1680x1050.mp4,Test_1920x1200.mp4,Test_2560x1600.mp4"
+				  refVideos =  "Ref_2560x1600.mp4"
+				  output = "TC_1.5."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>  
+
+
+		<testcase number = "1.6"
+				  description = "Resolutions Test" 
+				  string = "AspectRatio = 16:9"
+				  expectedresult = "P"
+				  subfolder ="6-16over9"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"    	
+
+				  yuvcommand = ""
+				  yuvcommandlist = "768 432 29.97 8 4096 2304 29.97 8,854 480 29.97 8 4096 2304 29.97 8,960 540 29.97 8 4096 2304 29.97 8,1024 576 29.97 8 4096 2304 29.97 8,1280 720 29.97 8 4096 2304 29.97 8,1366 768 29.97 8 4096 2304 29.97 8,1600 900 29.97 8 4096 2304 29.97 8,1920 1080 29.97 8 4096 2304 29.97 8,2560 1440 29.97 8 4096 2304 29.97 8,3840 2160 29.97 8 4096 2304 29.97 8,4096 2304 29.97 8 4096 2304 29.97 8"
+				  yuvdistvideos = "Test_768x432_29.97fps_8bit_yuv420p.yuv,Test_854x480_29.97fps_8bit_yuv420p.yuv,Test_960x540_29.97fps_8bit_yuv420p.yuv,Test_1024x576_29.97fps_8bit_yuv420p.yuv,Test_1280x720_29.97fps_8bit_yuv420p.yuv,Test_1366x768_29.97fps_8bit_yuv420p.yuv,Test_1600x900_29.97fps_8bit_yuv420p.yuv,Test_1920x1080_29.97fps_8bit_yuv420p.yuv,Test_2560x1440_29.97fps_8bit_yuv420p.yuv,Test_3840x2160_29.97fps_8bit_yuv420p.yuv,Test_4096x2304_29.97fps_8bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_4096x2304_29.97fps_8bit_yuv420p.yuv"
+				  	
+				  distVideos =  "Test_768x432.mp4,Test_854x480.mp4,Test_960x540.mp4,Test_1024x576.mp4,Test_1280x720.mp4,Test_1366x768.mp4,Test_1600x900.mp4,Test_1920x1080.mp4,Test_2560x1440.mp4,Test_3840x2160.mp4,Test_4096x2304.mp4"
+				  refVideos =  "Ref_4096x2304.mp4"
+				  output = "TC_1.6."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>  
+
+
+		<testcase number = "1.7"
+				  description = "Resolutions Test" 
+				  string = "AspectRatio = 17:9"
+				  expectedresult = "P"
+				  subfolder ="7-17over9"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"    	
+
+				  yuvcommand = ""
+				  yuvcommandlist = "2048 1080 29.97 8 4096 2160 29.97 8,4096 2160 29.97 8 4096 2160 29.97 8"
+				  yuvdistvideos = "Test_2048x1080_29.97fps_8bit_yuv420p.yuv,Test_4096x2160_29.97fps_8bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_4096x2160_29.97fps_8bit_yuv420p.yuv"
+				  	
+				  distVideos =  "Test_2048x1080.mp4,Test_4096x2160.mp4"
+				  refVideos =  "Ref_4096x2160.mp4"
+				  output = "TC_1.7."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>  
+		
+		
+		<testcase number = "1.8"
+				  description = "Resolutions Test" 
+				  string = "AspectRatio = 21:9"
+				  expectedresult = "P"
+				  subfolder ="8-21over9"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"    	
+
+				  yuvcommand = ""
+				  yuvcommandlist = "3440 1440 29.97 8 3440 1440 29.97 8"
+				  yuvdistvideos = "Test_3440x1440_29.97fps_8bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_3440x1440_29.97fps_8bit_yuv420p.yuv"
+				  	
+				  distVideos =  "Test_3440x1440.mp4"
+				  refVideos =  "Ref_3440x1440.mp4"
+				  output = "TC_1.8."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		
+		<testcase number = "2.1"
+				  description = "FrameRate Test" 
+				  string = "SameFrameRate"
+				  expectedresult = "P"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"  
+
+				  yuvcommand = ""
+				  yuvcommandlist = "768 432 15 10 768 432 15 10,768 432 23.976 10 768 432 23.976 10,768 432 24 10 768 432 24 10,768 432 25 10 768 432 25 10,768 432 29.97 10 768 432 29.97 10,768 432 30 10 768 432 30 10,768 432 50 10 768 432 50 10,768 432 59.94 10 768 432 59.94 10,768 432 60 10 768 432 60 10,768 432 120 10 768 432 120 10"
+				  yuvdistvideos = "Test_768x432_15fps_10bit_yuv420p.yuv,Test_768x432_23.976fps_10bit_yuv420p.yuv,Test_768x432_24fps_10bit_yuv420p.yuv,Test_768x432_25fps_10bit_yuv420p.yuv,Test_768x432_29.97fps_10bit_yuv420p.yuv,Test_768x432_30fps_10bit_yuv420p.yuv,Test_768x432_50fps_10bit_yuv420p.yuv,Test_768x432_59.94fps_10bit_yuv420p.yuv,Test_768x432_60fps_10bit_yuv420p.yuv,Test_768x432_120fps_10bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_768x432_15fps_10bit_yuv420p.yuv,Ref_768x432_23.976fps_10bit_yuv420p.yuv,Ref_768x432_24fps_10bit_yuv420p.yuv,Ref_768x432_25fps_10bit_yuv420p.yuv,Ref_768x432_29.97fps_10bit_yuv420p.yuv,Ref_768x432_30fps_10bit_yuv420p.yuv,Ref_768x432_50fps_10bit_yuv420p.yuv,Ref_768x432_59.94fps_10bit_yuv420p.yuv,Ref_768x432_60fps_10bit_yuv420p.yuv,Ref_768x432_120fps_10bit_yuv420p.yuv"
+
+				  distVideos =  "Test_768x432_15fps.mp4,Test_768x432_23.976fps.mp4,Test_768x432_24fps.mp4,Test_768x432_25fps.mp4,Test_768x432_29.97fps.mp4,Test_768x432_30fps.mp4,Test_768x432_50fps.mp4,Test_768x432_59.94fps.mp4,Test_768x432_60fps.mp4,Test_768x432_120fps.mp4"
+				  refVideos =  "Ref_768x432_15fps.mp4,Ref_768x432_23.976fps.mp4,Ref_768x432_24fps.mp4,Ref_768x432_25fps.mp4,Ref_768x432_29.97fps.mp4,Ref_768x432_30fps.mp4,Ref_768x432_50fps.mp4,Ref_768x432_59.94fps.mp4,Ref_768x432_60fps.mp4,Ref_768x432_120fps.mp4"
+				  output = "TC_2.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "2.2"
+				  description = "FrameRate Test" 
+				  string = "SimliarFrameRate"
+				  expectedresult = "P"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "768 432 24 10 768 432 23.976 10,768 432 30 10 768 432 29.97 10,768 432 60 10 768 432 59.94 10" 
+				  yuvdistvideos = "Test_768x432_24fps_10bit_yuv420p.yuv,Test_768x432_30fps_10bit_yuv420p.yuv,Test_768x432_60fps_10bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_768x432_23.976fps_10bit_yuv420p.yuv,Ref_768x432_29.97fps_10bit_yuv420p.yuv,Ref_768x432_59.94fps_10bit_yuv420p.yuv"
+				  
+
+				  distVideos = "Test_768x432_24fps.mp4,Test_768x432_30fps.mp4,Test_768x432_60fps.mp4"
+				  refVideos =  "Ref_768x432_23.976fps.mp4,Ref_768x432_29.97fps.mp4,Ref_768x432_59.94fps.mp4"
+				  output = "TC_2.2."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "2.3"
+				  description = "FrameRate Test"
+				  string = "CrossFrameRate"
+				  expectedresult = "P,F,P,F,F,F,P,P,F"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "768 432 60 10 768 432 120 10,768 432 50 10 768 432 120 10,768 432 30 10 768 432 120 10,768 432 25 10 768 432 120 10,768 432 15 10 768 432 120 10,768 432 50 10 768 432 60 10,768 432 29.97 10 768 432 60 10,768 432 23.976 10 768 432 60 10,768 432 15 10 768 432 60 10"
+				  yuvdistvideos = "Test_768x432_60fps_10bit_yuv420p.yuv,Test_768x432_50fps_10bit_yuv420p.yuv,Test_768x432_30fps_10bit_yuv420p.yuv,Test_768x432_25fps_10bit_yuv420p.yuv,Test_768x432_15fps_10bit_yuv420p.yuv,Test_768x432_50fps_10bit_yuv420p.yuv,Test_768x432_29.97fps_10bit_yuv420p.yuv,Test_768x432_23.976fps_10bit_yuv420p.yuv,Test_768x432_15fps_10bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_768x432_120fps_10bit_yuv420p.yuv,Ref_768x432_60fps_10bit_yuv420p.yuv"
+
+
+				  distVideos =  "Test_768x432_60fps.mp4,Test_768x432_50fps.mp4,Test_768x432_30fps.mp4,Test_768x432_25fps.mp4,Test_768x432_15fps.mp4,Test_768x432_50fps.mp4,Test_768x432_29.97fps.mp4,Test_768x432_23.976fps.mp4,Test_768x432_15fps.mp4"
+				  refVideos =  "Ref_768x432_120fps.mp4,Ref_768x432_60fps.mp4"
+				  output = "TC_2.3."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+		
+		<testcase number = "3.1"
+				  description = "BitDepth Test"
+				  string = "SameBitDepth"
+				  expectedresult = "P"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "320 240 24 10 320 240 24 10 -tc YUV422 -rc YUV422,320 240 24 8 320 240 24 8" 
+				  yuvdistvideos = "Test_320x240_24fps_10bit_yuv422p.yuv,Test_320x240_24fps_8bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_320x240_24fps_10bit_yuv422p.yuv,Ref_320x240_24fps_8bit_yuv420p.yuv"
+
+
+				  distVideos =  "Test_10bit.mp4,Test_8bit.mp4"
+				  refVideos =  "Ref_10bit.mp4,Ref_8bit.mp4"
+				  output = "TC_3.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "3.2"
+				  description = "BitDepth Test"
+				  string = "CrossBitDepth(SDR)"
+				  expectedresult = "P"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "320 240 24 10 320 240 24 8 -tc YUV422,320 240 24 8 320 240 24 10 -rc YUV422" 
+				  yuvdistvideos = "Test_320x240_24fps_10bit_yuv422p.yuv,Test_320x240_24fps_8bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_320x240_24fps_8bit_yuv420p.yuv,Ref_320x240_24fps_10bit_yuv422p.yuv"
+
+
+				  distVideos =  "Test_10bit.mp4,Test_8bit.mp4"
+				  refVideos =  "Ref_8bit.mp4,Ref_10bit.mp4"
+				  output = "TC_3.2."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "3.3"
+				  description = "BitDepth Test"
+				  string = "CrossBitDepth(HDR)"
+				  expectedresult = "P"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "" 
+				  yuvdistvideos = ""
+				  yuvrefvideos = ""
+				  
+				  distVideos = ""
+				  refVideos = ""
+				  output = "TC_3.3."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+				
+		<testcase number = "4.1"
+				  description = "Formats Test"
+				  string = "Same Format"
+				  expectedresult = "P"
+				  mainfolder = "4-Formats"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "704 576 29.97 8 704 576 29.97 8,704 576 29.97 8 704 576 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 10 768 432 29.97 10,768 432 29.97 8 768 432 29.97 8,,768 432 29.97 8 768 432 29.97 8,768 432 29.97 10 768 432 29.97 10,768 432 29.97 10 768 432 29.97 10,768 432 29.97 10 768 432 29.97 10,768 432 29.97 10 768 432 29.97 10,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8" 
+				  yuvdistvideos = "Test_704x576.3g2_29.97fps_8bit_yuv420p.yuv,Test_704x576.3gp_29.97fps_8bit_yuv420p.yuv,Test_768x432.asf_29.97fps_8bit_yuv420p.yuv,Test_768x432.avi_29.97fps_8bit_yuv420p.yuv,Test_768x432.drc_29.97fps_8bit_yuv420p.yuv,Test_768x432.f4v_29.97fps_10bit_yuv420p.yuv,Test_768x432.flv_29.97fps_8bit_yuv420p.yuv,,Test_768x432.m2v_29.97fps_8bit_yuv420p.yuv,Test_768x432.m4v_29.97fps_10bit_yuv420p.yuv,Test_768x432.mkv_29.97fps_10bit_yuv420p.yuv,Test_768x432.mov_29.97fps_10bit_yuv420p.yuv,Test_768x432.mp4_29.97fps_10bit_yuv420p.yuv,Test_768x432.mpeg_29.97fps_8bit_yuv420p.yuv,Test_768x432.mpg_29.97fps_8bit_yuv420p.yuv,Test_768x432.mxf_29.97fps_8bit_yuv420p.yuv,Test_768x432.ogg_29.97fps_8bit_yuv420p.yuv,Test_768x432.ogv_29.97fps_8bit_yuv420p.yuv,Test_768x432.rm_29.97fps_8bit_yuv420p.yuv,Test_768x432.vob_29.97fps_8bit_yuv420p.yuv,Test_768x432.webm_29.97fps_8bit_yuv420p.yuv,Test_768x432.wmv_29.97fps_8bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_704x576.3g2_29.97fps_8bit_yuv420p.yuv,Ref_704x576.3gp_29.97fps_8bit_yuv420p.yuv,Ref_768x432.asf_29.97fps_8bit_yuv420p.yuv,Ref_768x432.avi_29.97fps_8bit_yuv420p.yuv,Ref_768x432.drc_29.97fps_8bit_yuv420p.yuv,Ref_768x432.f4v_29.97fps_10bit_yuv420p.yuv,Ref_768x432.flv_29.97fps_8bit_yuv420p.yuv,,Ref_768x432.m2v_29.97fps_8bit_yuv420p.yuv,Ref_768x432.m4v_29.97fps_10bit_yuv420p.yuv,Ref_768x432.mkv_29.97fps_10bit_yuv420p.yuv,Ref_768x432.mov_29.97fps_10bit_yuv420p.yuv,Ref_768x432.mp4_29.97fps_10bit_yuv420p.yuv,Ref_768x432.mpeg_29.97fps_8bit_yuv420p.yuv,Ref_768x432.mpg_29.97fps_8bit_yuv420p.yuv,Ref_768x432.mxf_29.97fps_8bit_yuv420p.yuv,Ref_768x432.ogg_29.97fps_8bit_yuv420p.yuv,Ref_768x432.ogv_29.97fps_8bit_yuv420p.yuv,Ref_768x432.rm_29.97fps_8bit_yuv420p.yuv,Ref_768x432.vob_29.97fps_8bit_yuv420p.yuv,Ref_768x432.webm_29.97fps_8bit_yuv420p.yuv,Ref_768x432.wmv_29.97fps_8bit_yuv420p.yuv"
+				  
+				  distVideos = "Test_704x576.3g2,Test_704x576.3gp,Test_768x432.asf,Test_768x432.avi,Test_768x432.drc,Test_768x432.f4v,Test_768x432.flv,Test_768x432.gif,Test_768x432.m2v,Test_768x432.m4v,Test_768x432.mkv,Test_768x432.mov,Test_768x432.mp4,Test_768x432.mpeg,Test_768x432.mpg,Test_768x432.mxf,Test_768x432.ogg,Test_768x432.ogv,Test_768x432.rm,Test_768x432.vob,Test_768x432.webm,Test_768x432.wmv"
+				  refVideos =  "Ref_704x576.3g2,Ref_704x576.3gp,Ref_768x432.asf,Ref_768x432.avi,Ref_768x432.drc,Ref_768x432.f4v,Ref_768x432.flv,Ref_768x432.gif,Ref_768x432.m2v,Ref_768x432.m4v,Ref_768x432.mkv,Ref_768x432.mov,Ref_768x432.mp4,Ref_768x432.mpeg,Ref_768x432.mpg,Ref_768x432.mxf,Ref_768x432.ogg,Ref_768x432.ogv,Ref_768x432.rm,Ref_768x432.vob,Ref_768x432.webm,Ref_768x432.wmv"
+				  output = "TC_4.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "4.2"
+				  description = "Formats Test"
+				  string = "Cross Format"
+				  expectedresult = "P"
+				  mainfolder = "4-Formats"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "768 432 29.97 10 768 432 29.97 8,768 432 29.97 10 768 432 29.97 8,768 432 29.97 10 768 432 29.97 10,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 10 768 432 29.97 8,768 432 29.97 10 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 10 768 432 29.97 8" 
+				  yuvdistvideos = "Test_768x432.f4v_29.97fps_10bit_yuv420p.yuv,Test_768x432.mkv_29.97fps_10bit_yuv420p.yuv,Test_768x432.mp4_29.97fps_10bit_yuv420p.yuv,Test_768x432.mxf_29.97fps_8bit_yuv420p.yuv,Test_768x432.rm_29.97fps_8bit_yuv420p.yuv,Test_768x432.wmv_29.97fps_8bit_yuv420p.yuv,Test_768x432.mpg_29.97fps_8bit_yuv420p.yuv,Test_768x432.avi_29.97fps_8bit_yuv420p.yuv,Test_768x432.vob_29.97fps_8bit_yuv420p.yuv,Test_768x432.f4v_29.97fps_10bit_yuv420p.yuv"
+				  yuvrefvideos = "Ref_768x432.avi_29.97fps_8bit_yuv420p.yuv,Ref_768x432.flv_29.97fps_8bit_yuv420p.yuv,Ref_768x432.mov_29.97fps_10bit_yuv420p.yuv,Ref_768x432.mpeg_29.97fps_8bit_yuv420p.yuv,Ref_768x432.ogg_29.97fps_8bit_yuv420p.yuv,Ref_768x432.webm_29.97fps_8bit_yuv420p.yuv,Ref_768x432.mp4_29.97fps_10bit_yuv420p.yuv,Ref_768x432.m4v_29.97fps_10bit_yuv420p.yuv,Ref_768x432.mxf_29.97fps_8bit_yuv420p.yuv,Ref_768x432.drc_29.97fps_8bit_yuv420p.yuv"
+
+
+				  distVideos = "Test_768x432.f4v,Test_768x432.mkv,Test_768x432.mp4,Test_768x432.mxf,Test_768x432.rm,Test_768x432.wmv,Test_768x432.mpg,Test_768x432.avi,Test_768x432.vob,Test_768x432.f4v"
+				  refVideos =  "Ref_768x432.avi,Ref_768x432.flv,Ref_768x432.mov,Ref_768x432.mpeg,Ref_768x432.ogg,Ref_768x432.webm,Ref_768x432.mp4,Ref_768x432.m4v,Ref_768x432.mxf,Ref_768x432.drc"
+				  output = "TC_4.2."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		
+		<testcase number = "5.1"
+				  description = "Pixel Formats Test"
+				  string = "Same Pixel Format"
+				  expectedresult = "P"
+				  mainfolder = "5-Pixel_Formats"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "768 432 29.97 8 768 432 29.97 8,768 432 29.97 10 768 432 29.97 10,768 432 29.97 8 768 432 29.97 8 -tc YUV422 -rc YUV422,768 432 29.97 10 768 432 29.97 10 -tc YUV422 -rc YUV422,768 432 29.97 8 768 432 29.97 8 -tc YUV444 -rc YUV444,768 432 29.97 10 768 432 29.97 10 -tc YUV444 -rc YUV444" 
+				  yuvdistvideos = "Test_768x432_yuv420p_29.97fps_8bit.yuv,Test_768x432_yuv420p10le_29.97fps_10bit.yuv,Test_768x432_yuv422p_29.97fps_8bit.yuv,Test_768x432_yuv422p10le_29.97fps_10bit.yuv,Test_768x432_yuv444p_29.97fps_8bit.yuv,Test_768x432_yuv444p10le_29.97fps_10bit.yuv"
+				  yuvrefvideos = "Ref_768x432_yuv420p_29.97fps_8bit.yuv,Ref_768x432_yuv420p10le_29.97fps_10bit.yuv,Ref_768x432_yuv422p_29.97fps_8bit.yuv,Ref_768x432_yuv422p10le_29.97fps_10bit.yuv,Ref_768x432_yuv444p_29.97fps_8bit.yuv,Ref_768x432_yuv444p10le_29.97fps_10bit.yuv"
+
+
+				  distVideos = "Test_768x432_yuv420p.mpg,Test_768x432_yuv420p10le.mp4,Test_768x432_yuv422p.mpg,Test_768x432_yuv422p10le.mp4,Test_768x432_yuv444p.mpg,Test_768x432_yuv444p10le.mp4"
+				  refVideos =  "Ref_768x432_yuv420p.mpg,Ref_768x432_yuv420p10le.mp4,Ref_768x432_yuv422p.mpg,Ref_768x432_yuv422p10le.mp4,Ref_768x432_yuv444p.mpg,Ref_768x432_yuv444p10le.mp4"
+				  output = "TC_5.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "5.2"
+				  description = "Pixel Formats Test"
+				  string = "Cross Pixel Format"
+				  expectedresult = "P"
+				  mainfolder = "5-Pixel_Formats"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "768 432 29.97 10 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8 -tc YUV422,768 432 29.97 10 768 432 29.97 8 -tc YUV422,768 432 29.97 8 768 432 29.97 8 -tc YUV444,768 432 29.97 10 768 432 29.97 8 -tc YUV444,768 432 29.97 8 768 432 29.97 10,768 432 29.97 8 768 432 29.97 10 -tc YUV422,768 432 29.97 10 768 432 29.97 10 -tc YUV422,768 432 29.97 8 768 432 29.97 10 -tc YUV444,768 432 29.97 10 768 432 29.97 10 -tc YUV444,768 432 29.97 8 768 432 29.97 8 -rc YUV422,768 432 29.97 10 768 432 29.97 8 -rc YUV422,768 432 29.97 10 768 432 29.97 8 -rc YUV422 -tc YUV422,768 432 29.97 8 768 432 29.97 8 -rc YUV422 -tc YUV444,768 432 29.97 10 768 432 29.97 8 -rc YUV422 -tc YUV444,768 432 29.97 8 768 432 29.97 10 -rc YUV422,768 432 29.97 10 768 432 29.97 10 -rc YUV422,768 432 29.97 8 768 432 29.97 10 -rc YUV422 -tc YUV422,768 432 29.97 8 768 432 29.97 10 -rc YUV422 -tc YUV444,768 432 29.97 10 768 432 29.97 10 -rc YUV422 -tc YUV444,768 432 29.97 8 768 432 29.97 8 -rc YUV444,768 432 29.97 10 768 432 29.97 8 -rc YUV444,768 432 29.97 8 768 432 29.97 8 -rc YUV444 -tc YUV422,768 432 29.97 10 768 432 29.97 8 -rc YUV444 -tc YUV422,768 432 29.97 10 768 432 29.97 8 -rc YUV444 -tc YUV444,768 432 29.97 8 768 432 29.97 10 -rc YUV444,768 432 29.97 10 768 432 29.97 10 -rc YUV444,768 432 29.97 8 768 432 29.97 10 -rc YUV444 -tc YUV422,768 432 29.97 10 768 432 29.97 10 -rc YUV444 -tc YUV422,768 432 29.97 8 768 432 29.97 10 -rc YUV444 -tc YUV444"
+				  yuvdistvideos = "Test_768x432_yuv420p10le_29.97fps_10bit.yuv,Test_768x432_yuv422p_29.97fps_8bit.yuv,Test_768x432_yuv422p10le_29.97fps_10bit.yuv,Test_768x432_yuv444p_29.97fps_8bit.yuv,Test_768x432_yuv444p10le_29.97fps_10bit.yuv,Test_768x432_yuv420p_29.97fps_8bit.yuv,Test_768x432_yuv422p_29.97fps_8bit.yuv,Test_768x432_yuv422p10le_29.97fps_10bit.yuv,Test_768x432_yuv444p_29.97fps_8bit.yuv,Test_768x432_yuv444p10le_29.97fps_10bit.yuv,Test_768x432_yuv420p_29.97fps_8bit.yuv,Test_768x432_yuv420p10le_29.97fps_10bit.yuv,Test_768x432_yuv422p10le_29.97fps_10bit.yuv,Test_768x432_yuv444p_29.97fps_8bit.yuv,Test_768x432_yuv444p10le_29.97fps_10bit.yuv,Test_768x432_yuv420p_29.97fps_8bit.yuv,Test_768x432_yuv420p10le_29.97fps_10bit.yuv,Test_768x432_yuv422p_29.97fps_8bit.yuv,Test_768x432_yuv444p_29.97fps_8bit.yuv,Test_768x432_yuv444p10le_29.97fps_10bit.yuv,Test_768x432_yuv420p_29.97fps_8bit.yuv,Test_768x432_yuv420p10le_29.97fps_10bit.yuv,Test_768x432_yuv422p_29.97fps_8bit.yuv,Test_768x432_yuv422p10le_29.97fps_10bit.yuv,Test_768x432_yuv444p10le_29.97fps_10bit.yuv,Test_768x432_yuv420p_29.97fps_8bit.yuv,Test_768x432_yuv420p10le_29.97fps_10bit.yuv,Test_768x432_yuv422p_29.97fps_8bit.yuv,Test_768x432_yuv422p10le_29.97fps_10bit.yuv,Test_768x432_yuv444p_29.97fps_8bit.yuv"
+				  yuvrefvideos = "Ref_768x432_yuv420p_29.97fps_8bit.yuv,Ref_768x432_yuv420p10le_29.97fps_10bit.yuv,Ref_768x432_yuv422p_29.97fps_8bit.yuv,Ref_768x432_yuv422p10le_29.97fps_10bit.yuv,Ref_768x432_yuv444p_29.97fps_8bit.yuv,Ref_768x432_yuv444p10le_29.97fps_10bit.yuv"
+
+
+				  distVideos = "Test_768x432_yuv420p10le.mp4,Test_768x432_yuv422p.mpg,Test_768x432_yuv422p10le.mp4,Test_768x432_yuv444p.mpg,Test_768x432_yuv444p10le.mp4,Test_768x432_yuv420p.mpg,Test_768x432_yuv422p.mpg,Test_768x432_yuv422p10le.mp4,Test_768x432_yuv444p.mpg,Test_768x432_yuv444p10le.mp4,Test_768x432_yuv420p.mpg,Test_768x432_yuv420p10le.mp4,Test_768x432_yuv422p10le.mp4,Test_768x432_yuv444p.mpg,Test_768x432_yuv444p10le.mp4,Test_768x432_yuv420p.mpg,Test_768x432_yuv420p10le.mp4,Test_768x432_yuv422p.mpg,Test_768x432_yuv444p.mpg,Test_768x432_yuv444p10le.mp4,Test_768x432_yuv420p.mpg,Test_768x432_yuv420p10le.mp4,Test_768x432_yuv422p.mpg,Test_768x432_yuv422p10le.mp4,Test_768x432_yuv444p10le.mp4,Test_768x432_yuv420p.mpg,Test_768x432_yuv420p10le.mp4,Test_768x432_yuv422p.mpg,Test_768x432_yuv422p10le.mp4,Test_768x432_yuv444p.mpg"
+				  refVideos = "Ref_768x432_yuv420p.mpg,Ref_768x432_yuv420p10le.mp4,Ref_768x432_yuv422p.mpg,Ref_768x432_yuv422p10le.mp4,Ref_768x432_yuv444p.mpg,Ref_768x432_yuv444p10le.mp4"
+				  output = "TC_5.2."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "6.1"
+				  description = "Encoders Test"
+				  string = "H261;"
+				  expectedresult = "P"
+				  mainfolder = "6-Encoders"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "352 288 29.97 8 352 288 29.97 8,704 576 29.97 8 704 576 29.97 8,720 480 29.97 8 720 480 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 10 768 432 29.97 10,768 432 29.97 10 768 432 29.97 10,768 432 29.97 10 768 432 29.97 10,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,,,,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 8,768 432 30 10 768 432 30 10,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 8,768 432 30 10 768 432 30 10,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 8"
+
+				  yuvdistvideos = "Test_352x288_29.97fps_h261_8bit_yuv420p.yuv,Test_704x576_29.97fps_h263_8bit_yuv420p.yuv,Test_720x480_29.97fps_dv_8bit_yuv411p.yuv,Test_768x432_29.97fps_asv1_8bit_yuv420p.yuv,Test_768x432_29.97fps_asv2_8bit_yuv420p.yuv,Test_768x432_29.97fps_ffv1_10bit_yuv420p.yuv,Test_768x432_29.97fps_flashsv_8bit_yuv420p.yuv,Test_768x432_29.97fps_flashsv2_10bit_yuv420p.yuv,Test_768x432_29.97fps_flv_8bit_yuv420p.yuv,Test_768x432_29.97fps_h263p_8bit_yuv420p.yuv,Test_768x432_29.97fps_mpeg1_8bit_yuv420p.yuv,Test_768x432_29.97fps_mpeg4_8bit_yuv420p.yuv,Test_768x432_29.97fps_msmpeg4_8bit_yuv420p.yuv,,,,Test_768x432_29.97fps_ut_8bit_yuv420p.yuv,Test_768x432_29.97fps_wmv1_8bit_yuv420p.yuv,Test_768x432_29.97fps_wmv2_8bit_yuv420p.yuv,,Test_768x432_30fps_dirac_8bit_yuv420p.yuv,Test_768x432_30fps_jp2k_8bit_yuv420p.yuv,Test_768x432_30fps_libx264_10bit_yuv420p.yuv,Test_768x432_30fps_libx265_8bit_yuv420p.yuv,Test_768x432_30fps_mpeg2_8bit_yuv420p.yuv,Test_768x432_30fps_prores_10bit_yuv422p.yuv,Test_768x432_30fps_snow_8bit_yuv420p.yuv,Test_768x432_30fps_theora_8bit_yuv420p.yuv,Test_768x432_30fps_vp8_8bit_yuv420p.yuv,Test_768x432_30fps_vp9_8bit_yuv420p.yuv,Test_768x432_30fps_xavs_8bit_yuv420p.yuv,Test_768x432_30fps_xvid_8bit_yuv420p.yuv"
+
+				  yuvrefvideos = "Ref_352x288_29.97fps_h261_8bit_yuv420p.yuv,Ref_704x576_29.97fps_h263_8bit_yuv420p.yuv,Ref_720x480_29.97fps_dv_8bit_yuv411p.yuv,Ref_768x432_29.97fps_asv1_8bit_yuv420p.yuv,Ref_768x432_29.97fps_asv2_8bit_yuv420p.yuv,Ref_768x432_29.97fps_ffv1_10bit_yuv420p.yuv,Ref_768x432_29.97fps_flashsv_10bit_yuv420p.yuv,Ref_768x432_29.97fps_flashsv2_10bit_yuv420p.yuv,Ref_768x432_29.97fps_flv_8bit_yuv420p.yuv,Ref_768x432_29.97fps_h263p_8bit_yuv420p.yuv,Ref_768x432_29.97fps_mpeg1_8bit_yuv420p.yuv,Ref_768x432_29.97fps_mpeg4_8bit_yuv420p.yuv,Ref_768x432_29.97fps_msmpeg4_8bit_yuv420p.yuv,,,,Ref_768x432_29.97fps_ut_8bit_yuv420p.yuv,Ref_768x432_29.97fps_wmv1_8bit_yuv420p.yuv,Ref_768x432_29.97fps_wmv2_8bit_yuv420p.yuv,,Ref_768x432_30fps_dirac_8bit_yuv420p.yuv,Ref_768x432_30fps_jp2k_8bit_yuv420p.yuv,Ref_768x432_30fps_libx264_10bit_yuv420p.yuv,Ref_768x432_30fps_libx265_8bit_yuv420p.yuv,Ref_768x432_30fps_mpeg2_8bit_yuv420p.yuv,Ref_768x432_30fps_prores_10bit_yuv422p.yuv,Ref_768x432_30fps_snow_8bit_yuv420p.yuv,Ref_768x432_30fps_theora_8bit_yuv420p.yuv,Ref_768x432_30fps_vp8_8bit_yuv420p.yuv,Ref_768x432_30fps_vp9_8bit_yuv420p.yuv,Ref_768x432_30fps_xavs_8bit_yuv420p.yuv,Ref_768x432_30fps_xvid_8bit_yuv420p.yuv"
+
+				  distVideos ="Test_352x288_29.97fps_h261.mov,Test_704x576_29.97fps_h263.mov,Test_720x480_29.97fps_dv.dv,Test_768x432_29.97fps_asv1.mov,Test_768x432_29.97fps_asv2.mov,Test_768x432_29.97fps_ffv1.avi,Test_768x432_29.97fps_flashsv.avi,Test_768x432_29.97fps_flashsv2.flv,Test_768x432_29.97fps_flv.flv,Test_768x432_29.97fps_h263p.mov,Test_768x432_29.97fps_mpeg1.mpg,Test_768x432_29.97fps_mpeg4.mp4,Test_768x432_29.97fps_msmpeg4.mov,Test_768x432_29.97fps_msvideo1.avi,Test_768x432_29.97fps_qtrle.mov,Test_768x432_29.97fps_svq1.avi,Test_768x432_29.97fps_ut.mov,Test_768x432_29.97fps_wmv1.mov,Test_768x432_29.97fps_wmv2.mov,Test_768x432_29.97fps_zmbv.mov,Test_768x432_30fps_dirac.mkv,Test_768x432_30fps_jp2k.mov,Test_768x432_30fps_libx264.mp4,Test_768x432_30fps_libx265.mp4,Test_768x432_30fps_mpeg2.mov,Test_768x432_30fps_prores.mov,Test_768x432_30fps_snow.mov,Test_768x432_30fps_theora.avi,Test_768x432_30fps_vp8.webm,Test_768x432_30fps_vp9.webm,Test_768x432_30fps_xavs.avi,Test_768x432_30fps_xvid.mov"
+				  refVideos ="Ref_352x288_29.97fps_h261.mov,Ref_704x576_29.97fps_h263.mov,Ref_720x480_29.97fps_dv.dv,Ref_768x432_29.97fps_asv1.mov,Ref_768x432_29.97fps_asv2.mov,Ref_768x432_29.97fps_ffv1.avi,Ref_768x432_29.97fps_flashsv.avi,Ref_768x432_29.97fps_flashsv2.flv,Ref_768x432_29.97fps_flv.flv,Ref_768x432_29.97fps_h263p.mov,Ref_768x432_29.97fps_mpeg1.mpg,Ref_768x432_29.97fps_mpeg4.mp4,Ref_768x432_29.97fps_msmpeg4.mov,Ref_768x432_29.97fps_msvideo1.avi,Ref_768x432_29.97fps_qtrle.mov,Ref_768x432_29.97fps_svq1.avi,Ref_768x432_29.97fps_ut.mov,Ref_768x432_29.97fps_wmv1.mov,Ref_768x432_29.97fps_wmv2.mov,Ref_768x432_29.97fps_zmbv.mov,Ref_768x432_30fps_dirac.mkv,Ref_768x432_30fps_jp2k.mov,Ref_768x432_30fps_libx264.mp4,Ref_768x432_30fps_libx265.mp4,Ref_768x432_30fps_mpeg2.mov,Ref_768x432_30fps_prores.mov,Ref_768x432_30fps_snow.mov,Ref_768x432_30fps_theora.avi,Ref_768x432_30fps_vp8.webm,Ref_768x432_30fps_vp9.webm,Ref_768x432_30fps_xavs.avi,Ref_768x432_30fps_xvid.mov"
+				  output = "TC_6.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+ 		
+		<testcase number = "6.2"
+				  description = "Encoders Test"
+				  string = "Cross Encoder"
+				  expectedresult = "P"
+				  mainfolder = "6-Encoders"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+
+				  yuvcommand = ""
+				  yuvcommandlist = "768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 10,,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 10,768 432 29.97 8 768 432 29.97 10,,,,768 432 29.97 8 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,768 432 29.97 10 768 432 29.97 8,,,,768 432 29.97 8 768 432 29.97 8,768 432 29.97 10 768 432 29.97 8,768 432 29.97 8 768 432 29.97 8,,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 10,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 10,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 8,768 432 30 10 768 432 30 8,768 432 30 8 768 432 30 8,768 432 30 8 768 432 30 8,768 432 30 10 768 432 30 8"
+				   
+				  yuvdistvideos = "Test_768x432_29.97fps_ut_8bit_yuv420p.yuv,Test_768x432_29.97fps_wmv1_8bit_yuv420p.yuv,Test_768x432_29.97fps_wmv2_8bit_yuv420p.yuv,,Test_768x432_29.97fps_mpeg1_8bit_yuv420p.yuv,Test_768x432_29.97fps_mpeg4_8bit_yuv420p.yuv,Test_768x432_29.97fps_msmpeg4_8bit_yuv420p.yuv,,,,Test_768x432_29.97fps_asv1_8bit_yuv420p.yuv,Test_768x432_29.97fps_asv2_8bit_yuv420p.yuv,Test_768x432_29.97fps_ffv1_10bit_yuv420p.yuv,,,,Test_768x432_29.97fps_h263p_8bit_yuv420p.yuv,Test_768x432_29.97fps_flashsv2_10bit_yuv420p.yuv,Test_768x432_29.97fps_flv_8bit_yuv420p.yuv,,Test_768x432_30fps_snow_8bit_yuv420p.yuv,Test_768x432_30fps_theora_8bit_yuv420p.yuv,Test_768x432_30fps_vp8_8bit_yuv420p.yuv,Test_768x432_30fps_vp9_8bit_yuv420p.yuv,Test_768x432_30fps_xavs_8bit_yuv420p.yuv,Test_768x432_30fps_xvid_8bit_yuv420p.yuv,Test_768x432_30fps_dirac_8bit_yuv420p.yuv,Test_768x432_30fps_jp2k_8bit_yuv420p.yuv,Test_768x432_30fps_libx264_10bit_yuv420p.yuv,Test_768x432_30fps_libx265_8bit_yuv420p.yuv,Test_768x432_30fps_mpeg2_8bit_yuv420p.yuv,Test_768x432_30fps_prores_10bit_yuv422p.yuv"
+
+				  yuvrefvideos = "Ref_768x432_29.97fps_asv1_8bit_yuv420p.yuv,Ref_768x432_29.97fps_asv2_8bit_yuv420p.yuv,Ref_768x432_29.97fps_ffv1_10bit_yuv420p.yuv,,Ref_768x432_29.97fps_asv2_8bit_yuv420p.yuv,Ref_768x432_29.97fps_ffv1_10bit_yuv420p.yuv,Ref_768x432_29.97fps_flashsv_10bit_yuv420p.yuv,,,,Ref_768x432_29.97fps_mpeg1_8bit_yuv420p.yuv,Ref_768x432_29.97fps_mpeg4_8bit_yuv420p.yuv,Ref_768x432_29.97fps_msmpeg4_8bit_yuv420p.yuv,,,,Ref_768x432_29.97fps_ut_8bit_yuv420p.yuv,Ref_768x432_29.97fps_wmv1_8bit_yuv420p.yuv,Ref_768x432_29.97fps_wmv2_8bit_yuv420p.yuv,,Ref_768x432_30fps_dirac_8bit_yuv420p.yuv,Ref_768x432_30fps_jp2k_8bit_yuv420p.yuv,Ref_768x432_30fps_libx264_10bit_yuv420p.yuv,Ref_768x432_30fps_libx265_8bit_yuv420p.yuv,Ref_768x432_30fps_mpeg2_8bit_yuv420p.yuv,Ref_768x432_30fps_prores_10bit_yuv422p.yuv,Ref_768x432_30fps_snow_8bit_yuv420p.yuv,Ref_768x432_30fps_theora_8bit_yuv420p.yuv,Ref_768x432_30fps_vp8_8bit_yuv420p.yuv,Ref_768x432_30fps_vp9_8bit_yuv420p.yuv,Ref_768x432_30fps_xavs_8bit_yuv420p.yuv,Ref_768x432_30fps_xvid_8bit_yuv420p.yuv"
+
+				  distVideos ="Test_768x432_29.97fps_ut.mov,Test_768x432_29.97fps_wmv1.mov,Test_768x432_29.97fps_wmv2.mov,Test_768x432_29.97fps_zmbv.mov,Test_768x432_29.97fps_mpeg1.mpg,Test_768x432_29.97fps_mpeg4.mp4,Test_768x432_29.97fps_msmpeg4.mov,Test_768x432_29.97fps_msvideo1.avi,Test_768x432_29.97fps_qtrle.mov,Test_768x432_29.97fps_svq1.avi,Test_768x432_29.97fps_asv1.mov,Test_768x432_29.97fps_asv2.mov,Test_768x432_29.97fps_ffv1.avi,Test_768x432_29.97fps_flashsv.avi,Test_768x432_29.97fps_flashsv2.flv,Test_768x432_29.97fps_flv.flv,Test_768x432_29.97fps_h263p.mov,Test_768x432_29.97fps_flashsv2.flv,Test_768x432_29.97fps_flv.flv,Test_768x432_29.97fps_h263p.mov,Test_768x432_30fps_snow.mov,Test_768x432_30fps_theora.avi,Test_768x432_30fps_vp8.webm,Test_768x432_30fps_vp9.webm,Test_768x432_30fps_xavs.avi,Test_768x432_30fps_xvid.mov,Test_768x432_30fps_dirac.mkv,Test_768x432_30fps_jp2k.mov,Test_768x432_30fps_libx264.mp4,Test_768x432_30fps_libx265.mp4,Test_768x432_30fps_mpeg2.mov,Test_768x432_30fps_prores.mov"
+				  refVideos = "Ref_768x432_29.97fps_asv1.mov,Ref_768x432_29.97fps_asv2.mov,Ref_768x432_29.97fps_ffv1.avi,Ref_768x432_29.97fps_asv1.mov,Ref_768x432_29.97fps_asv2.mov,Ref_768x432_29.97fps_ffv1.avi,Ref_768x432_29.97fps_flashsv.avi,Ref_768x432_29.97fps_flashsv2.flv,Ref_768x432_29.97fps_flv.flv,Ref_768x432_29.97fps_h263p.mov,Ref_768x432_29.97fps_mpeg1.mpg,Ref_768x432_29.97fps_mpeg4.mp4,Ref_768x432_29.97fps_msmpeg4.mov,Ref_768x432_29.97fps_msvideo1.avi,Ref_768x432_29.97fps_qtrle.mov,Ref_768x432_29.97fps_svq1.avi,Ref_768x432_29.97fps_ut.mov,Ref_768x432_29.97fps_wmv1.mov,Ref_768x432_29.97fps_wmv2.mov,Ref_768x432_29.97fps_zmbv.mov,Ref_768x432_30fps_dirac.mkv,Ref_768x432_30fps_jp2k.mov,Ref_768x432_30fps_libx264.mp4,Ref_768x432_30fps_libx265.mp4,Ref_768x432_30fps_mpeg2.mov,Ref_768x432_30fps_prores.mov,Ref_768x432_30fps_snow.mov,Ref_768x432_30fps_theora.avi,Ref_768x432_30fps_vp8.webm,Ref_768x432_30fps_vp9.webm,Ref_768x432_30fps_xavs.avi,Ref_768x432_30fps_xvid.mov"
+				  output = "TC_6.2."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+		
+		<testcase number = "7.1"
+				  description = "Druations Test"
+				  string = "10min,30min,93min"
+				  expectedresult = "P"
+				  mainfolder = "7-Durations"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  distVideos = "Test_10min.mp4,Test_30min.mp4,Test_93min.mp4"
+				  refVideos =  "Ref_10min.mp4,Ref_30min.mp4,Ref_93min.mp4"
+				  output = "TC_7.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+ 		
+		<testcase number = "7.2"
+				  description = "Druations Test"
+				  string = "Cross Duration"
+				  expectedresult = "P"
+				  mainfolder = "7-Durations"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  distVideos = "Test_10min_30s.mp4,Test_10min.mp4,Test_30min_30s.mp4,Test_30min.mp4,Test_93min_30s.mp4,Test_93min.mp4"
+				  refVideos = "Ref_10min.mp4,Ref_10min_30s.mp4,Ref_30min.mp4,Ref_30min_30s.mp4,Ref_93min.mp4,Ref_93min_30s.mp4"
+				  output = "TC_7.2."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "8.1"
+				  description = "ScanTypes Test"
+				  string = "Ref_I, Test_P, FramePerFrame"
+				  expectedresult = "P"
+				  mainfolder = "8-ScanTypes"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  distVideos = "Test1_1920x1080_420p_29.97fps.mp4,Test2_1920x1080_420p_29.97fps.mp4"
+				  refVideos =  "Ref1_1920x1080_420i_29.97fps.ts,Ref2_1920x1080_420i_29.97fps.mpg"
+				  output = "TC_8.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+		<testcase number = "8.2"
+				  description = "ScanTypes Test"
+				  string = "Ref_I, Test_P, FramePerField"
+				  expectedresult = "P"
+				  mainfolder = "8-ScanTypes"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  distVideos = "Test1_1920x1080_420p_59.94fps.mp4,Test2_1920x1080_420p_59.94fps.mp4"
+				  refVideos =  "Ref1_1920x1080_420i_29.97fps.ts,Ref2_1920x1080_420i_29.97fps.mpg"
+				  output = "TC_8.2."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+		<testcase number = "8.3"
+				  description = "ScanTypes Test"
+				  string = "Ref_P, Test_I, FramePerFrame"
+				  expectedresult = "P"
+				  mainfolder = "8-ScanTypes"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  distVideos = "Test1_1920x1080_420i_29.97fps.mp4,Test2_1920x1080_420i_29.97fps.mp4"
+				  refVideos =  "Ref1_1920x1080_420p_29.97fps.mp4,Ref2_1920x1080_420p_29.97fps.mp4"
+				  output = "TC_8.3."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+		<testcase number = "8.4"
+				  description = "ScanTypes Test"
+				  string = "Ref_P, Test_I, FramePerField"
+				  expectedresult = "P"
+				  mainfolder = "8-ScanTypes"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  distVideos = "Test1_1920x1080_420i_29.97fps.mp4,Test2_1920x1080_420i_29.97fps.mp4"
+				  refVideos =  "Ref1_1920x1080_420p_59.94fps.mp4,Ref2_1920x1080_420p_59.94fps.mp4"
+				  output = "TC_8.4."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "9.1"
+				  description = "QA Features Test"
+				  string = "Auto Temporal Alignment"
+				  expectedresult = "P,P,P,P,F,F,F,F,F,F,F,F,F,F,F"
+				  mainfolder = "9-QA_Features"
+				  subfolder = "TemporalAlignment"
+				  command = "-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist = "-tat 1,-tat 1,-tat 2:10:0,-tat 2:60:0,-tat,-tat KJI,-tat -2,-tat 11,-tat 2::60,-tat 2::60,-tat 2:OIU:60,-tat 2:0:,-tat 2:0:+_),-tat 2:0:MNB,-tat 2:0:60:0"
+				  distVideos = "tshift_10f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4,tshift_10f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4,tshift_60f_768x432_400f.mp4"
+				  refVideos =  "tshift_ref_768x432_300f.mp4"
+				  output = "TC_9.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "9.2"
+				  description = "QA Features Test"
+				  string = "PID support;ref-MPTS,test-ts;ref-MPTS,test-msts"
+				  expectedresult = "P"
+				  mainfolder = "9-QA_Features"
+				  subfolder = "PID"
+				  countstart = "0"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist = "-refpid 0x1010,-refpid 0x1020,-refpid 0x1030,-refpid 0x1040,-refpid 0x1050,-refpid 0x1060,-refpid 0x1070,-refpid 0x1080,-refpid 0x1010 -testpid 0x100,-refpid 0x1020 -testpid 0x101,-refpid 0x1030 -testpid 0x102,-refpid 0x1040 -testpid 0x103,-refpid 0x1050 -testpid 0x104,-refpid 0x1060 -testpid 0x105,-refpid 0x1070 -testpid 0x106,-refpid 0x1080 -testpid 0x107" 
+				  distVideos = "Test_p1_rpid0x1010_dpid0x100.ts,Test_p2_rpid0x1020_dpid0x100.ts,Test_p3_rpid0x1030_dpid0x100.ts,Test_p4_rpid0x1040_dpid0x100.ts,Test_p5_rpid0x1050_dpid0x100.ts,Test_p6_rpid0x1060_dpid0x100.ts,Test_p7_rpid0x1070_dpid0x100.ts,Test_p8_rpid0x1080_dpid0x100.ts,Test_MultiStream.ts"
+				  refVideos =  "Ref_MultiProgram.ts"
+				  output = "TC_9.2."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "9.3"
+				  description = "video Frame2Process Test"
+				  string = "Frame2Process"
+				  expectedresult = "P,F,F,F,F,F"
+				  mainfolder = "9-QA_Features"
+				  subfolder = "Frame2Process"
+				  commandlist = "-f2p 100,-f2p c0x9,-f2p abc,-f2p -10,-f2p 1a2b,-f2p"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  distVideos = "Test_frame40992.mp4"
+				  refVideos =  "Ref_frame40992.mp4"
+				  output = "TC_9.3."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+		
+		<testcase number = "9.4"
+				  description = "MeasurementPeriod Test"
+				  string = "MeasurementPeriod"
+				  expectedresult = "P,P,F,F"
+				  mainfolder = "9-QA_Features"
+				  subfolder = "MeasurementPeriod"
+				  commandlist = "-mper 60,-mper 999999999,-mper lkn+_,-mper -5"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro" 
+				  distVideos = "Test_frame40992.mp4"
+				  refVideos =  "Ref_frame40992.mp4"
+				  output = "TC_9.4."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "9.5"
+				  description = "reference ROI Test"
+				  string = "reference ROI"
+				  expectedresult = "P,F,F,F,F,F,P,F,F,F,F,F"
+				  mainfolder = "9-QA_Features"
+				  commandlist = "-rroi 10:10:300:200 -troi 10:10:300:200,-rroi :10:300:200 -troi 10:10:300:200,-rroi 10:zxc:300:200 -troi 10:10:300:200,-rroi 10:10:#$%:200 -troi 10:10:300:200,-rroi 10:10:300:200000 -troi 10:10:300:200,-rroi oidfo -troi 10:10:300:200,-rroi 10:10:300:200 -troi 10:10:300:200,-rroi 10:10:300:200 -troi :10:300:200,-rroi 10:10:300:200 -troi 10:zxc:300:200,-rroi 10:10:300:200 -troi 10:10:#$%:200,-rroi 10:10:300:200 -troi 10:10:300:200000,-rroi 10:10:300:200 -troi oidfo"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro" 
+				  distVideos = "Test_320x240.mp4"
+				  refVideos =  "Ref_320x240.mp4"
+				  output = "TC_9.5."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "9.6"
+				  description = "Start Point Test"
+				  string = "Start Point"
+				  expectedresult = "P,P,F,F,F"
+				  mainfolder = "9-QA_Features"
+				  subfolder = "StartPoint"
+				  commandlist = "-sp 499,-sp 100000,-sp,-sp LKJ,-sp 200000"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro" 
+				  distVideos = "Test_frame134212.mp4"
+				  refVideos =  "Ref_frame134212.mp4"
+				  output = "TC_9.6."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "9.7"
+				  description = "PSNR and MSE video Test"
+				  string = "PSNR and MSE"
+				  expectedresult = "P,F,P,F,P,P"
+				  mainfolder = "9-QA_Features"
+				  commandlist = "-psnr,-psnr 1,-mse,-mse 1,-psnr,-mse"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro" 
+				  distVideos = "Test_320x240.mp4"
+				  refVideos =  "Ref_640x480.mp4,Ref_320x240.mp4"
+				  output = "TC_9.7."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+			
+		<testcase number = "9.8"
+				  description = "reference input video Test"
+				  string = "test reference input video"
+				  expectedresult = "P,F,F"
+				  mainfolder = "9-QA_Features"
+				  command = "-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro" 
+				  distVideos = "Test_320x240.mp4,Test_320x240.mp4,Test_320x240.mp4"
+				  refVideos =  "Ref_640x480.mp4,Ref1_640x480.mp4,"
+				  output = "TC_9.8."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "9.9"
+				  description = "test input video Test"
+				  string = "test input video"
+				  expectedresult = "P,F,F"
+				  mainfolder = "9-QA_Features"
+				  command = "-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro" 
+				  distVideos = "Test_320x240.mp4,Test1_320x240.mp4,"
+				  refVideos =  "Ref_640x480.mp4"
+				  output = "TC_9.9."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "9.10"
+				  description = "QualityThreshold Test"
+				  string = "QualityThreshold"
+				  expectedresult = "P,F,F,F,F"
+				  mainfolder = "9-QA_Features"
+				  commandlist = "-qthresh 90,-qthresh,-qthresh iuy?,-qthresh -10,-qthresh 110"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro" 
+				  distVideos = "Test_320x240.mp4"
+				  refVideos =  "Ref_640x480.mp4"
+				  output = "TC_9.10."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+			
+		<testcase number = "9.11"
+				  description = "Device Test"
+				  string = "Device"
+				  expectedresult = "P,F,F,F,F,P"
+				  mainfolder = "9-QA_Features"
+				  commandlist = "-dev ssimpluscore:iphone6,-dev anydevice,-dev ,-dev -999,-dev, -dev ssimpluscore:iphone6plus:iphone6:iphone5s:galaxys5:galaxynote4:onem8:nexus6:blackberrypassport:ipadair2:galaxytabs:nexus7:surface:f8500:vt60:w8:h7150:as600:ea9800:x9:hu9000:27mp35hq:xl2420t:b296cl:vg27he:lt3053:pa242w:u2713hm:macbookpro:thinkpadw540:aspires7:xps15:economyclasshds1:economyclassfhds2:economyclassfhds3:businessclassfhdm1:businessclassfhdm2:businessclassuhdm3:firstclassfhdl1:firstclassuhdl2:firstclassfuhdl3:up3216q:imac275k:imac2154k:ssimpluscore(expert):iphone6plus(expert):iphone6(expert):iphone5s(expert):galaxys5(expert):galaxynote4(expert):onem8(expert):nexus6(expert):blackberrypassport(expert):ipadair2(expert):galaxytabs(expert):nexus7(expert):surface(expert):f8500(expert):vt60(expert):w8(expert):h7150(expert):as600(expert):ea9800(expert):x9(expert):hu9000(expert):27mp35hq(expert):xl2420t(expert):b296cl(expert):vg27he(expert):lt3053(expert):pa242w(expert):u2713hm(expert):macbookpro(expert):thinkpadw540(expert):aspires7(expert):xps15(expert):economyclasshds1(expert):economyclassfhds2(expert):economyclassfhds3(expert):businessclassfhdm1(expert):businessclassfhdm2(expert):businessclassuhdm3(expert):firstclassfhdl1(expert):firstclassuhdl2(expert):firstclassfuhdl3(expert):up3216q(expert):imac275k(expert):imac2154k(expert)"
+				  command =" " 
+				  distVideos = "Test_320x240.mp4"
+				  refVideos =  "Ref_640x480.mp4"
+				  output = "TC_9.11."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "9.12"
+				  description = "ReportFile Test"
+				  string = "ReportFile"
+				  expectedresult = "P,P,F,F"
+				  mainfolder = "9-QA_Features"
+				  commandlist = "-rf Test_320x240.csv,-rf 1* ,-rf -999,-rf"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro" 
+				  distVideos = "Test_320x240.mp4"
+				  refVideos =  "Ref_640x480.mp4"
+				  output = "TC_9.12."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+				
+		<testcase number = "9.13"
+				  description = "Speed Test"
+				  string = "Speed"
+				  expectedresult = "P,P,P,P,F,F,F,F"
+				  mainfolder = "9-QA_Features"
+				  commandlist = "-speed 0,-speed 1,-speed 2,-speed 3,-speed -999,-speed abc,-speed 4,-speed"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro" 
+				  distVideos = "Test_320x240.mp4"
+				  refVideos =  "Ref_640x480.mp4"
+				  output = "TC_9.13."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+		<testcase number = "9.14"
+				  description = "SQOQ Test"
+				  string = "SQOQ"
+				  expectedresult = "F,F,P"
+				  mainfolder = "9-QA_Features"
+				  commandlist = "-sqoq 0,-sqoq 1,-sqoq"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro" 
+				  distVideos = "Test_320x240.mp4"
+				  refVideos =  "Ref_640x480.mp4"
+				  output = "TC_9.14."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "9.15"
+				  description = "Remark Test"
+				  string = "Remark"
+				  expectedresult = "P"
+				  mainfolder = "9-QA_Features"
+				  commandlist = "-rem RemarkTest"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro" 
+				  distVideos = "Test_320x240.mp4"
+				  refVideos =  "Ref_640x480.mp4"
+				  output = "TC_9.15."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "10.1"
+				  description = "YUV Test"
+				  string = ""
+				  expectedresult ="P,P,P,P,P,P,P,P,F,F,F,F"
+				  mainfolder = "10-YUVTests"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist = "-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=1920:h=1080:fps=24:bd=8:cf=422,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=1920:h=1080:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=1280:h=720:fps=24:bd=8:cf=444,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=1280:h=720:fps=24:bd=8:cf=422,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=1280:h=720:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=444,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=422,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=15:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=30:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=50:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=60:bd=8:cf=420"
+				  distVideos = "Leopard_1920x1080_24fps_8bit_422p.yuv,Leopard_1920x1080_24fps_8bit_420p.yuv,Leopard_1280x720_24fps_8bit_444p.yuv,Leopard_1280x720_24fps_8bit_422p.yuv,Leopard_1280x720_24fps_8bit_420p.yuv,Leopard_768x432_24fps_8bit_444p.yuv,Leopard_768x432_24fps_8bit_422p.yuv,Leopard_768x432_24fps_8bit_420p.yuv,Leopard_768x432_15fps_8bit_420p.yuv,Leopard_768x432_30fps_8bit_420p.yuv,Leopard_768x432_50fps_8bit_420p.yuv,Leopard_768x432_60fps_8bit_420p.yuv"
+				  refVideos =  "Leopard_1920x1080_24fps_8bit_444p.yuv"
+				  output = "TC_10.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+					
+		<testcase number = "10.1.13"
+				  description = "YUV Test"
+				  string = ""
+				  expectedresult = "P"
+				  mainfolder = "10-YUVTests"
+				  command = "-yuvParamR w=1920:h=1080:fps=24:bd=10:cf=422 -yuvParamD w=1920:h=1080:fps=24:bd=10:cf=422 -m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  distVideos = "ShowGirl_q29-1920x1080p-10bit-24fps-ct2020-YUV422.yuv"
+				  refVideos =  "ShowGirl_1920x1080p_24_10_P3_ct2020_422p.yuv"
+				  output = "TC_10.1.13"
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+		<testcase number = "10.1.14"
+				  description = "YUV Test"
+				  string = ""
+				  expectedresult = "P"
+				  mainfolder = "10-YUVTests"
+				  command = " -yuvParamR w=1920:h=1080:fps=24:bd=12:cf=444  -yuvParamD w=1920:h=1080:fps=24:bd=12:cf=444 -m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  distVideos = "ShowGirl_q29-1920x1080p-12bit-24fps-ct2020-YUV444.yuv"
+				  refVideos =  "ShowGirl_1920x1080p_24_12_P3_ct2020_444p.yuv"
+				  output = "TC_10.1.14"
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+		<testcase number = "10.1.15"
+				  description = "YUV Test"
+				  string = ""
+				  expectedresult = "P"
+				  mainfolder = "10-YUVTests"
+				  command = "-yuvParamR w=1920:h=1080:fps=24:bd=12:cf=444  -yuvParamD w=1920:h=1080:fps=24:bd=12:cf=444 -m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  distVideos = "ShowGirl_q41-1920x1080p-12bit-24fps-ct2020-YUV444.yuv"
+				  refVideos =  "ShowGirl_1920x1080p_24_12_P3_ct2020_444p.yuv"
+				  output = "TC_10.1.15"
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "10.1.16"
+				  description = "YUV Test"
+				  string = ""
+				  expectedresult = "P"
+				  mainfolder = "10-YUVTests"
+				  command = "-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=420 -yuvParamD w=1920:h=1080:fps=24:bd=8:cf=444 -m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  distVideos = "ShowGirl_q41-1920x1080p-8bit-24fps-ct2020-YUV444.yuv"
+				  refVideos =  "ShowGirl_q29-1920x1080p-8bit-24fps-ct2020-YUV420.yuv"
+				  output = "TC_10.1.16"
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "10.2"
+				  description = "YUV Param Test"
+				  string = "Param Testing"
+				  expectedresult = "F,F,F,F,F,F,P,F,F,F,F,F,F,F,F,F,F,F,F,P,F"
+				  mainfolder = "10-YUVTests"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist = "-yuvParamR :h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=-999:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=19200:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w1=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444:w=1280 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920::fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=-9999:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=999999:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:h=108:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080::bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=2400:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24::cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24:bd=80:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24:bd:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=4098 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24:bd=8: -yuvParamD w=768:h=432:fps=24:bd=8:cf=420,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf= -yuvParamD w=768:h=432:fps=24:bd=8:cf=420"
+				  distVideos = "Leopard_768x432_24fps_8bit_420p.yuv"
+				  refVideos =  "Leopard_1920x1080_24fps_8bit_444p.yuv"
+				  output = "TC_10.2."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		
+		<testcase number = "10.3"
+				  description = "YUV Param Test"
+				  string = "Auto Alignmnet"
+				  expectedresult = "P,P,F,F,F,F,F,F,F,F,P,P,F,F,F,P,P,F,F,P,F,F,F,P,F,P,F,P,F,F,F,F,F,P,F,F,F,P,F,P,P,F,F,F,F,F,P,F,F,F,F,F,F"
+				  mainfolder = "10-YUVTests"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist = "-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -tat 1,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -tat 2:10:10,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -tat,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -tat -2,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -tat 11,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -tat 2::10,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -tat 2:siu:10,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -tat 2:10:,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -tat 2:10:sd,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -tat 2:10:10:123,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -f2p 50,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -f2p 50000,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -f2p asd,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -f2p -10,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -f2p,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -mper 5,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -mper 55555,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -mper adgr,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -mper -10,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -sp 99,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -sp 999999,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -sp,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -sp fdgg,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -psnr,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -psnr 1,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -mse,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -mse 1,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -qthresh 90,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -qthresh,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -qthresh ewr,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -qthresh -10,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -qthresh 120,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -dev anydevice,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -dev ssimpluscore:iphone6,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -dev -999,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -dev,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rf,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rf asd,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rf -999,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rf Leopard_768x432_24fps_8bit_420p.csv,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi 10:10:960:540 -troi 5:5:384:216,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi :10:960:540 -troi 5:5:384:216,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi 10:zxc:960:540 -troi 5:5:384:216,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi 10:10:asd:540 -troi 5:5:384:216,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi 10:10:960:54000 -troi 5:5:384:216,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi oidinfo -troi 5:5:384:216,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi 10:10:960:540 -troi 5:5:384:216,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi 10:10:960:540 -troi :5:384:216,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi 10:10:960:540 -troi 5:ioiu:384:216,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi 10:10:960:540 -troi 5:5:asd:217,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi 10:10:960:540 -troi 5:ioiu:384:216,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi 10:10:960:540 -troi 5:5:384:216000,-yuvParamR w=1920:h=1080:fps=24:bd=8:cf=444 -yuvParamD w=768:h=432:fps=24:bd=8:cf=420 -rroi 10:10:960:540 -troi asdl"
+				  distVideos = "Leopard_768x432_24fps_8bit_420p.yuv"
+				  refVideos =  "Leopard_1920x1080_24fps_8bit_444p.yuv"
+				  output = "TC_10.3."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+		
+		<testcase number = "11.1"
+				  description = "Unsupported option/types Test"
+				  string = "Unsupported option/types"
+				  expectedresult = "F"
+				  mainfolder = "11-Usage"
+				  command = "-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro -xyz"
+				  distVideos = "Test_320x240.mp4"
+				  refVideos =  "Ref_320x240.mp4"
+				  output = "TC_11.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "11.2"
+				  description = "Repeated Options Test"
+				  string = "Repeated Options"
+				  expectedresult = "F"
+				  mainfolder = "11-Usage"
+				  command = "-r Ref1_640x480.mp4 -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  distVideos = "Test_320x240.mp4"
+				  refVideos =  "Ref_320x240.mp4"
+				  output = "TC_11.2."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "11.3"
+				  description = "Option Order Test"
+				  string = "Option Order"
+				  expectedresult = "P"
+				  mainfolder = "11-Usage"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist ="-psnr -mse -dev ssimpluscore:iphone6 -sp 10 -f2p 500 -mper 2 -speed 2,-mse -psnr -dev ssimpluscore:iphone6 -sp 10 -f2p 500 -mper 2 -speed 2,-mse -dev ssimpluscore:iphone6 -psnr -sp 10 -f2p 500 -mper 2 -speed 2,-mse -dev ssimpluscore:iphone6 -sp 10 -psnr -f2p 500 -mper 2 -speed 2,-mse -dev ssimpluscore:iphone6 -sp 10 -f2p 500 -psnr -mper 2 -speed 2,-mse -dev ssimpluscore:iphone6 -sp 10 -f2p 500 -mper 2 -psnr -speed 2,-mse -dev ssimpluscore:iphone6 -sp 10 -f2p 500 -mper 2 -speed 2 -psnr,-dev ssimpluscore:iphone6 -psnr -mse -sp 10 -f2p 500 -mper 2 -speed 2,-dev ssimpluscore:iphone6 -sp 10 -psnr -mse  -f2p 500 -mper 2 -speed 2,-dev ssimpluscore:iphone6 -sp 10 -f2p 500 -psnr -mse -mper 2 -speed 2,-dev ssimpluscore:iphone6 -sp 10 -f2p 500 -mper 2 -psnr -mse -speed 2,-dev ssimpluscore:iphone6 -sp 10 -f2p 500 -mper 2 -speed 2 -psnr -mse,-sp 10 -psnr -mse -dev ssimpluscore:iphone6 -f2p 500 -mper 2 -speed 2,-sp 10 -f2p 500 -psnr -mse -dev ssimpluscore:iphone6 -mper 2 -speed 2,-sp 10 -f2p 500 -mper 2 -psnr -mse -dev ssimpluscore:iphone6 -speed 2,-sp 10 -f2p 500 -mper 2 -speed 2 -psnr -mse -dev ssimpluscore:iphone6,-f2p 500 -psnr -mse -dev ssimpluscore:iphone6 -sp 10 -mper 2 -speed 2,-f2p 500 -mper 2 -psnr -mse -dev ssimpluscore:iphone6 -sp 10 -speed 2,-f2p 500 -mper 2 -speed 2 -psnr -mse -dev ssimpluscore:iphone6 -sp 10,-mper 2 -psnr -mse -dev ssimpluscore:iphone6 -sp 10 -f2p 500 -speed 2,-mper 2 -speed 2 -psnr -mse -dev ssimpluscore:iphone6 -sp 10 -f2p 500,-speed 2 -psnr -mse -dev ssimpluscore:iphone6 -sp 10 -f2p 500 -mper 2"
+				  distVideos = "Test_320x240.mp4"
+				  refVideos =  "Ref_320x240.mp4"
+				  output = "TC_11.3."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "12.1"
+				  description = "Bug-fix"
+				  string = "Comcast"
+				  expectedresult = "P,P,P,P,P,F,P,P,P,P,P,P,P,P,P,F,P,P,P,P,P,P,P,P,P,F,P,P,P,P,P,P,P,P,P,F,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,P,F,F,P"
+				  mainfolder = "12-BugFix"
+				  subfolder = "Comcast"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist ="-tat 1 -sqoq,-sfR 1 -sfD 0 -sqoq,-sfR 2 -sfD 1 -sqoq,-sfR 1001 -sfD 1000 -sqoq,-sfR 1002 -sfD 1001 -sqoq,-tat 1 -f2p 10 -sqoq,-sfR 1 -sfD 0 -f2p 10 -sqoq,-sfR 2 -sfD 1 -f2p 10 -sqoq,-sfR 1001 -sfD 1000 -f2p 10 -sqoq,-sfR 1002 -sfD 1001 -f2p 10 -sqoq,-tat 1 -sqoq,-sfR 1 -sfD 0 -sqoq,-sfR 2 -sfD 1 -sqoq,-sfR 1001 -sfD 1000 -sqoq,-sfR 1002 -sfD 1001 -sqoq,-tat 1 -f2p 10 -sqoq,-sfR 1 -sfD 0 -f2p 10 -sqoq,-sfR 2 -sfD 1 -f2p 10 -sqoq,-sfR 1001 -sfD 1000 -f2p 10 -sqoq,-sfR 1002 -sfD 1001 -f2p 10 -sqoq,-tat 1 -sqoq,-sfR 1 -sfD 0 -sqoq,-sfR 2 -sfD 1 -sqoq,-sfR 1001 -sfD 1000 -sqoq,-sfR 1002 -sfD 1001 -sqoq,-tat 1 -f2p 10 -sqoq,-sfR 1 -sfD 0 -f2p 10 -sqoq,-sfR 2 -sfD 1 -f2p 10 -sqoq,-sfR 1001 -sfD 1000 -f2p 10 -sqoq,-sfR 1002 -sfD 1001 -f2p 10 -sqoq,-tat 1 -sqoq,-sfR 1 -sfD 0 -sqoq,-sfR 2 -sfD 1 -sqoq,-sfR 1001 -sfD 1000 -sqoq,-sfR 1002 -sfD 1001 -sqoq,-tat 1 -f2p 10 -sqoq,-sfR 1 -sfD 0 -f2p 10 -sqoq,-sfR 2 -sfD 1 -f2p 10 -sqoq,-sfR 1001 -sfD 1000 -f2p 10 -sqoq,-sfR 1002 -sfD 1001 -f2p 10 -sqoq,-sqoq,-sfR 1000 -sfD 1000 -f2p 10 -sqoq,-sfR 1001 -sfD 1001 -f2p 500 -sqoq,-f2p 100 -mper 1 -sqoq -psnr -mse,-sqoq,-sfR 1000 -sfD 1000 -f2p 10 -sqoq,-sfR 1001 -sfD 1001 -f2p 500 -sqoq,-f2p 100 -mper 1 -sqoq -psnr -mse,-sqoq,-sfR 100 -sfD 100 -f2p 10 -sqoq,-sfR 101 -sfD 101 -f2p 500 -sqoq,-f2p 100 -mper 1 -sqoq -psnr -mse,-sqoq,-sfR 10 -sfD 10 -f2p 10 -sqoq,-sfR 11 -sfD 11 -sqoq,-f2p 100 -mper 1 -sqoq -psnr -mse"
+				  distVideos = "AT3790_DWTS1_C1_LVLH05.ts,AT3790_DWTS1_C1_LVLH07.ts,AT3790_JB1RTA_C1_LVLH06.ts,AT3790_JB1RTA_C1_LVLH07.ts,Blacklist_indMezz_3mincut_LVLH07.ts,2minSourcetest_1280X720p60.ts,Tangerine_Global_Promo_VS7000_LVLH07A.ts,htcs_prores_5sec_elemental_1280X720.ts"
+				  refVideos =  "DWTS1_1080i_60.ts,JB1RTA_1080i_60.ts,Blacklist_indMezz_3mincut.mov,2minSourcetest.mpg,Tangerine_Global_Promo.ts,htcs_prores_5sec_elemental.mov"
+				  output = "TC_12.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "12.2"
+				  description = "Bug-fix"
+				  string = "BellMedia"
+				  expectedresult = "F,F,F,P,P,P,P,P,P,P,P,P,P"
+				  mainfolder = "12-BugFix"
+				  subfolder = "BellMedia"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist ="-sqoq,-sfR 1000 -sfD 1000 -f2p 10 -sqoq,-sfR 1001 -sfD 1001 -f2p 500 -sqoq,-f2p 100 -mper 1 -sqoq -psnr -mse,-f2p 100 -sqoq,-f2p 100 -sqoq,-f2p 100 -sqoq,-f2p 100 -sqoq,-f2p 100 -sqoq,-f2p 100 -sqoq,-f2p 100 -sqoq,-f2p 100 -sqoq,-f2p 100 -sqoq"
+				  distVideos = "4k_2minXAVC 60P-Adaptive_01.mp4,4k_2minXAVC 60P-Adaptive_02.mp4,4k_2minXAVC 60P-Adaptive_03.mp4,4k_2minXAVC 60P-Adaptive_04.mp4,4k_2minXAVC 60P-Adaptive_05.mp4,4k_2minXAVC 60P-Adaptive_06.mp4,4k_2minXAVC 60P-Adaptive_07.mp4,4k_2minXAVC 60P-Adaptive_08.mp4,4k_2minXAVC 60P-Adaptive_09.mp4,4k_2minXAVC 60P-Adaptive_10.mp4"
+				  refVideos =  "4k_2minXAVC 60P.MXF"
+				  output = "TC_12.2."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "12.3"
+				  description = "Bug-fix"
+				  string = "ViaSat"
+				  expectedresult = "P,P,P,P"
+				  mainfolder = "12-BugFix"
+				  subfolder = "ViaSat"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist ="-sqoq,-sfR 1000 -sfD 1000 -f2p 10 -sqoq,-sfR 1001 -sfD 1001 -f2p 500 -sqoq,-f2p 100 -mper 1 -sqoq -psnr -mse"
+				  distVideos = "bball_350k.mp4"
+				  refVideos =  "bball_reference.mp4"
+				  output = "TC_12.3."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "12.4"
+				  description = "Bug-fix"
+				  string = "Rogers"
+				  expectedresult = "P,P,P,P,P,P,P,P"
+				  mainfolder = "12-BugFix"
+				  subfolder = "Rogers"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist ="-tat 1 -sqoq -f2p 1500,-sfR 294 -sfD 10 -f2p 300 -mper 1 -sqoq,-tat 1 -sqoq -f2p 1500,-sfR 11 -sfD 165 -f2p 300 -mper 1 -sqoq,-tat 1 -sqoq -f2p 1500,-sfR 224 -sfD 10 -f2p 300 -mper 1 -sqoq,-tat 1 -sqoq -f2p 1500,-sfR 11 -sfD 183 -f2p 300 -mper 1 -sqoq"
+				  distVideos = "SNO_AVP.ts,SNO_DCM.ts,TSN_AVP.ts,TSN_DCM.ts"
+				  refVideos =  "SNO_Ref.ts,TSN_Ref.ts"
+				  output = "TC_12.4."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "12.5"
+				  description = "Bug-fix"
+				  string = "Elemental"
+				  expectedresult = "P,P,P,P"
+				  mainfolder = "12-BugFix"
+				  subfolder = "Elemental"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist ="-sqoq,-sfR 10 -sfD 10 -f2p 300 -mper 1 -sqoq,-sqoq,-sfR 11 -sfD 11 -f2p 300 -mper 1 -sqoq"
+				  distVideos = "Shopping_720p.mp4,Shopping_1080p.mp4"
+				  refVideos =  "Shopping.ts"
+				  output = "TC_12.5."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "12.6"
+				  description = "Bug-fix"
+				  string = "Discovery"
+				  expectedresult = "P,P,P"
+				  mainfolder = "12-BugFix"
+				  subfolder = "Discovery"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist ="-sqoq,-sfR 10 -sfD 10 -f2p 300 -mper 1 -sqoq,-sfR 11 -sfD 11 -f2p 300 -mper 1 -sqoq"
+				  distVideos = "Test.mp4"
+				  refVideos =  "Ref.mxf"
+				  output = "TC_12.6."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "12.7"
+				  description = "Bug-fix"
+				  string = "B_Sky_B"
+				  expectedresult = "P,P,P,F,F,F"
+				  mainfolder = "12-BugFix"
+				  subfolder = "B_Sky_B"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist ="-sqoq,-sfR 10 -sfD 10 -f2p 300 -mper 1 -sqoq,-sfR 11 -sfD 11 -f2p 300 -mper 1 -sqoq,-sqoq,-sfR 10 -sfD 10 -f2p 300 -mper 1 -sqoq,-sfR 11 -sfD 11 -f2p 300 -mper 1 -sqoq"
+				  distVideos = "Test_football_yuv420.mp4,Test_Elecard_RuBeatles_4K_short_HEVC_20mbps.ts"
+				  refVideos =  "Ref_football_yuv420.avi,Ref_Elecard_RuBeatles_4K_short_HEVC_20mbps.ts"
+				  output = "TC_12.7."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "12.8"
+				  description = "Bug-fix"
+				  string = "DirecTV"
+				  expectedresult = "P,P,P,P,P,P"
+				  mainfolder = "12-BugFix"
+				  subfolder = "DirecTV"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist ="-sqoq,-sfR 10 -sfD 10 -f2p 300 -mper 1 -sqoq,-sfR 11 -sfD 11 -f2p 300 -mper 1 -sqoq,-sfR 1000 -sfD 1000 -f2p 10 -sqoq,-sfR 1001 -sfD 1001 -f2p 500 -sqoq,-sfR 1000 -sfD 1000 -f2p 10 -sqoq -psnr -mse"
+				  distVideos = "Test.mp4"
+				  refVideos =  "Ref.mpg"
+				  output = "TC_12.8."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "12.9"
+				  description = "Bug-fix"
+				  string = "Telefonica"
+				  expectedresult = "P,P,P,P,P,P,P,P,P,P,P,P"
+				  mainfolder = "12-BugFix"
+				  subfolder = "Telefonica"
+				  command ="-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist ="-f2p 300 -sqoq,-sfR 10 -sfD 10 -f2p 300 -mper 1 -sqoq,-sfR 11 -sfD 11 -f2p 300 -mper 1 -sqoq,-sfR 1000 -sfD 1000 -f2p 10 -sqoq,-sfR 1001 -sfD 1001 -f2p 500 -sqoq,-sfR 1000 -sfD 1000 -f2p 10 -sqoq -psnr -mse,-f2p 300 -sqoq,-sfR 10 -sfD 10 -f2p 300 -mper 1 -sqoq,-sfR 11 -sfD 11 -f2p 300 -mper 1 -sqoq,-sfR 1000 -sfD 1000 -f2p 10 -sqoq,-sfR 1001 -sfD 1001 -f2p 500 -sqoq,-sfR 1000 -sfD 1000 -f2p 10 -sqoq -psnr -mse"
+				  distVideos = "MEZZ_SEMSADA_2min_30Mbps_1080i30_250.mp4,MEZZ_SEMSADA_2min_30Mbps_1080i30_600.mp4"
+				  refVideos =  "MEZZ_SEMSADA_2min_30Mbps_1080i30.ts"
+				  output = "TC_12.9."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+		<testcase number = "13.1"
+				  description = "Spainish Inputs Test"
+				  string = ""
+				  expectedresult = "F,F,F,F,P,P,P,P"
+				  mainfolder = "13-Spainish"
+				  command = "-m ssimplus -dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist ="-mper 2.5|-mper 2,5|-qthresh 80.5|-qthresh 80,5|-yuvParamR w=320:h=240:fps=29.97 -yuvParamD w=320:h=240:fps=29.97|-yuvParamR w=320:h=240:fps=29,97 -yuvParamD w=320:h=240:fps=29.97|-yuvParamR w=320:h=240:fps=29.97 -yuvParamD w=320:h=240:fps=29,97|-yuvParamR w=320:h=240:fps=29,97 -yuvParamD w=320:h=240:fps=29,97"
+				  distVideos = "Test_320x240.mp4,Test_320x240_29.97.yuv"
+				  refVideos =  "Ref_320x240.mp4,Ref_320x240_29.97.yuv"
+				  output = "TC_13.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+		
+		<testcase number = "14.1"
+				  description = "practice"
+				  string = "Practice"
+				  expectedresult = "P,P,P"
+				  mainfolder = "14-practice"
+				  command = "-dev ssimpluscore:iphone6plus:ipadair2:vt60:thinkpadw540:macbookpro"
+				  commandlist ="-psnr, -mse, -mper 1"
+				  distVideos = "Test_768x432.mp4"
+				  refVideos =  "Test_854x480.mp4"
+				  output = "TC_14.1."
+				  conditions = "The string &quot;task is finished&quot; is found in the log file;Report CSV DOESN'T matche the gold file;Performance values are within expected range;Warning;Error">
+		</testcase>
+
+
+	</testsuite>
+</framework>

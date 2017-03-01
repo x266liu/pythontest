@@ -1,0 +1,38 @@
+ SSIMWave's Video Quality-of-Experience Monitor with a CLI for Windows (SQM-CLI-Win), Version 1.5.31.383
+
+Reference video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\Comcast\Tangerine_Global_Promo.ts,PID, N/A
+Test video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\Comcast\Tangerine_Global_Promo_VS7000_LVLH07A.ts,PID, 1
+
+Report Date, 30-Jan, Report Time, 13:10:57
+Test Video's Bit-rate, 38299 kbps, Reference Video's Bit-rate, 28363 kbps
+Test Video's Resolution, 1280x720, Reference Video's Resolution, 1920x1080
+Test Video's Framerate, 59.94, Reference Video's Framerate, 59.94
+Number of frames processed, 10
+
+SSIMplus QoE Scores Summary
+Statistic,Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ
+Maximum,100,100,100,100,100,100,100,100,100,100,100,100,100
+Minimum,100,98,97,99,99,99,99,99,99,98,98,99,98
+Mean,100,99.4,99.2,99.9,99.9,99.9,99.8,99.9,99.9,99.4,99.3,99.9,99.6
+Standard Deviation,3.478e-029,0.6992,1.033,0.3162,0.3162,0.3162,0.4216,0.3162,0.3162,0.6992,0.8233,0.3162,0.6992
+Excellent (81-100),100%,100%,100%,100%,100%,100%,100%,100%,100%,100%,100%,100%,100%
+Good (61-80),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Fair (41-60),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Poor (21-40),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Bad (0-20),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Below threshold (0-70),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Reference Video Temporal Alignment Offset (frames),100
+Test Video Temporal Alignment Offset (frames),100
+
+  SSIMplus QoE Scores 
+Reference frame index, Test frame index, Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ,
+101,101,100,100,100,100,100,100,100,100,100,100,100,100,100
+102,102,100,100,100,100,100,100,100,100,100,100,100,100,100
+103,103,100,100,100,100,100,100,100,100,100,100,100,100,100
+104,104,100,100,100,100,100,100,100,100,100,100,100,100,100
+105,105,100,100,100,100,100,100,100,100,100,100,100,100,100
+106,106,100,99,99,100,100,100,100,100,100,99,99,100,100
+107,107,100,99,99,100,100,100,100,100,100,99,99,100,100
+108,108,100,99,99,100,100,100,100,100,100,99,99,100,99
+109,109,100,99,98,100,100,100,99,100,100,99,98,100,99
+110,110,100,98,97,99,99,99,99,99,99,98,98,99,98

@@ -1,0 +1,33 @@
+ SSIMWave's Video Quality-of-Experience Monitor with a CLI for Windows (SQM-CLI-Win), Version 1.5.31.383
+
+Reference video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\Rogers\SNO_Ref.ts,PID, N/A
+Test video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\Rogers\SNO_AVP.ts,PID, 1
+
+Report Date, 30-Jan, Report Time, 13:21:37
+Test Video's Bit-rate, 7501 kbps, Reference Video's Bit-rate, 33304 kbps
+Test Video's Resolution, 1280x720, Reference Video's Resolution, 1920x1080
+Test Video's Framerate, 59.94, Reference Video's Framerate, 59.94
+Number of frames processed, 300
+
+SSIMplus QoE Scores Summary
+Statistic. Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ
+Maximum,6.992e+188,94,92.64,99,97.98,92,90.92,92.98,91.92,87.1,86.35,91,89.93
+Minimum,101,93,91.79,99,97.39,87.79,86.59,88.1,87.36,83,81.66,87,85.62
+Mean,6.992e+188,93.36,92.2,99,97.73,89.09,87.94,89.9,88.78,84.26,83.33,88.18,87.01
+Standard Deviation,0,0.4987,0.3827,0,0.2506,1.796,1.777,1.945,1.861,1.779,1.843,1.759,1.75
+Excellent (81-100),0%,1.667%,1.667%,1.667%,1.667%,1.667%,1.667%,1.667%,1.667%,1.667%,1.667%,1.667%,1.667%
+Good (61-80),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Fair (41-60),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Poor (21-40),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Bad (0-20),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Below threshold (0-70),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Reference Video Temporal Alignment Offset (frames),294
+Test Video Temporal Alignment Offset (frames),10
+
+  SSIMplus QoE Scores 
+Reference Video Period Start (sec), Reference Video Period End (sec), Test Video Period Start (sec), Test Video Period End (sec), Source_Qaulity,SSIMplusCore,SSIMplusCore_DR,iPhone 6 Plus,iPhone 6 Plus_DR,iPad Air 2,iPad Air 2_DR,VT60,VT60_DR,ThinkPad W540,ThinkPad W540_DR,Macbook Pro,Macbook Pro_DR,
+4.905,5.905,0.1668,1.167,0,93,91,99,97,92,90,92,91,87,86,91,89
+5.905,6.905,1.167,2.167,0,93,91,99,97,89,88,90,89,84,83,88,87
+6.905,7.905,2.167,3.167,0,93,92,99,97,87,86,88,87,83,81,87,85
+7.905,8.905,3.167,4.167,0,93,92,99,97,88,86,88,87,83,82,87,86
+8.905,9.91,4.167,5.172,0,94,92,99,97,88,86,89,87,83,82,87,86

@@ -1,0 +1,32 @@
+ SSIMWave's Video Quality-of-Experience Monitor with a CLI for Windows (SQM-CLI-Win), Version 1.5.31.383
+
+Reference video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\BellMedia\4k_2minXAVC 60P.MXF,PID, N/A
+Test video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\BellMedia\4k_2minXAVC 60P-Adaptive_02.mp4,PID, 1
+
+Report Date, 30-Jan, Report Time, 13:13:18
+Test Video's Bit-rate, 503 kbps, Reference Video's Bit-rate, 544459 kbps
+Test Video's Resolution, 640x360, Reference Video's Resolution, 3840x2160
+Test Video's Framerate, 29.97, Reference Video's Framerate, 59.94
+Number of frames processed, 96
+
+SSIMplus QoE Scores Summary
+Statistic. Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ
+Maximum,6.992e+188,82.57,39,72,41,62.43,33,64,34,55,29.4,61,30.17
+Minimum,101,72.33,37.39,58.8,37.32,48.83,31.1,52,32.19,44.1,28.39,48.07,28.97
+Mean,6.992e+188,76.09,38.23,63.31,39.24,53.26,32.22,56.01,33.28,47.58,28.91,52.28,29.72
+Standard Deviation,0,5.29,0.6756,6.899,1.722,7.084,0.8283,6.291,0.7928,5.69,0.419,6.781,0.5305
+Excellent (81-100),0%,2.083%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Good (61-80),0%,2.083%,0%,2.083%,0%,1.042%,0%,2.083%,0%,0%,0%,1.042%,0%
+Fair (41-60),0%,0%,0%,2.083%,2.083%,3.125%,0%,2.083%,0%,4.167%,0%,3.125%,0%
+Poor (21-40),0%,0%,4.167%,0%,2.083%,0%,4.167%,0%,4.167%,0%,4.167%,0%,4.167%
+Bad (0-20),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Below threshold (0-70),0%,0%,4.167%,3.125%,4.167%,4.167%,4.167%,4.167%,4.167%,4.167%,4.167%,4.167%,4.167%
+Reference Video Temporal Alignment Offset (frames),0
+Test Video Temporal Alignment Offset (frames),0
+
+  SSIMplus QoE Scores 
+Reference Video Period Start (sec), Reference Video Period End (sec), Test Video Period Start (sec), Test Video Period End (sec), Source_Qaulity,SSIMplusCore,SSIMplusCore_DR,iPhone 6 Plus,iPhone 6 Plus_DR,iPad Air 2,iPad Air 2_DR,VT60,VT60_DR,ThinkPad W540,ThinkPad W540_DR,Macbook Pro,Macbook Pro_DR,
+ , ,0,1,0,72,38,58,38,48,32,52,33,44,29,48,30
+ , ,1,2,0,73,37,59,37,49,31,52,32,44,28,48,28
+ , ,2,3,0,81,38,69,40,59,32,61,33,52,28,58,29
+ , ,3,3.203,0,82,39,72,41,62,33,64,34,55,29,61,30

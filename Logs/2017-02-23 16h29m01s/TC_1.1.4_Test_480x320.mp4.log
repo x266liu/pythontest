@@ -1,0 +1,288 @@
+Start demuxing.
+estimated number of frames for C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 is 602
+bitrate=30 fps=29.97 width=480 height=320 steamIndex=0 standard=h264 cdcnt=0540B1A0 fName=C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4
+ in media info 
+Start demuxing.
+estimated number of frames for C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 is 602
+bitrate=19045 fps=29.97 width=1440 height=960 steamIndex=0 standard=h264 cdcnt=0594E440 fName=C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4
+ in media info 
+Start decoding threads.
+Initialization for decoding all frames.
+Start decoding loop.
+Initialization for decoding all frames.
+First frame decoding.
+Start decoding loop.
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 last decoded is 0
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 last decoded is 1
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 last decoded is 2
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 last decoded is 0
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 last decoded is 1
+Create ref/test params.
+Check the params before creating ssimpluslib.
+Creating ssimplus lib
+Progressive
+In pushing frames to ssimplus to video data
+In pushing frames to ssimplus to video data
+frame: 0
+proc: frameIndex, passIdx, decIdx = 0, -1, 1
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 last decoded is 2
+push if dist 
+try push Dist 0
+push: fr, dr,dd, pr,pd = 0: - , - - , 0 
+Dist: successfully pushed frame 0
+In pushing frames to ssimplus to video data
+push if dist 
+try push Dist 1
+push: fr, dr,dd, pr,pd = 1: - , - - , 1 
+Dist: successfully pushed frame 1
+In pushing frames to ssimplus to video data
+push if dist 
+try push Dist 2
+push if ref
+first try to push Ref 0
+ref passed with return 0
+push: fr, dr,dd, pr,pd = 0: - , - 0, -
+Ref: successfully pushed frame 0
+In pushing frames to ssimplus to video data
+push if ref
+first try to push Ref 1
+ref passed with return 0
+push: fr, dr,dd, pr,pd = 1: - , - 1, -
+Ref: successfully pushed frame 1
+In pushing frames to ssimplus to video data
+push if ref
+first try to push Ref 2
+ref passed with return 0
+push: fr, dr,dd, pr,pd = 2: - , - 2, -
+Ref: successfully pushed frame 2
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 last decoded is 3
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 last decoded is 4
+frame: 0
+proc: frameIndex, passIdx, decIdx = 0, 1, 2
+Grab scores.
+Frame: 0 FR Quality on Device ssimpluscore = 67
+Frame: 0 FR Quality on Device iphone6plus = 42
+Frame: 0 FR Quality on Device ipadair2 = 32
+Frame: 0 FR Quality on Device vt60 = 36
+Frame: 0 FR Quality on Device thinkpadw540 = 28
+Frame: 0 FR Quality on Device macbookpro = 33
+Scores are ready for frame 0
+frame: 1
+proc: frameIndex, passIdx, decIdx = 1, 1, 2
+Grab scores.
+Frame: 1 FR Quality on Device ssimpluscore = 67
+Frame: 1 FR Quality on Device iphone6plus = 42
+Frame: 1 FR Quality on Device ipadair2 = 32
+Frame: 1 FR Quality on Device vt60 = 36
+Frame: 1 FR Quality on Device thinkpadw540 = 28
+Frame: 1 FR Quality on Device macbookpro = 33
+Scores are ready for frame 1
+frame: 2
+proc: frameIndex, passIdx, decIdx = 2, 1, 2
+push: fr, dr,dd, pr,pd = 2: - , - - , 2 
+Dist: successfully pushed frame 2
+In pushing frames to ssimplus to video data
+push if dist 
+try push Dist 3
+push: fr, dr,dd, pr,pd = 3: - , - - , 3 
+Dist: successfully pushed frame 3
+In pushing frames to ssimplus to video data
+push if dist 
+try push Dist 4
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 last decoded is 3
+In pushing frames to ssimplus to video data
+frame: 2
+proc: frameIndex, passIdx, decIdx = 2, 2, 3
+Grab scores.
+Frame: 2 FR Quality on Device ssimpluscore = 67
+Frame: 2 FR Quality on Device iphone6plus = 42
+Frame: 2 FR Quality on Device ipadair2 = 32
+Frame: 2 FR Quality on Device vt60 = 36
+Frame: 2 FR Quality on Device thinkpadw540 = 28
+Frame: 2 FR Quality on Device macbookpro = 33
+Scores are ready for frame 2
+frame: 3
+proc: frameIndex, passIdx, decIdx = 3, 2, 3
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 last decoded is 5
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 last decoded is 6
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 last decoded is 4
+push: fr, dr,dd, pr,pd = 4: - , - - , 4 
+Dist: successfully pushed frame 4
+In pushing frames to ssimplus to video data
+push if dist 
+try push Dist 5
+push if ref
+first try to push Ref 3
+ref passed with return 0
+push: fr, dr,dd, pr,pd = 3: - , - 3, -
+Ref: successfully pushed frame 3
+In pushing frames to ssimplus to video data
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 last decoded is 5
+push if ref
+first try to push Ref 4
+ref passed with return 0
+push: fr, dr,dd, pr,pd = 4: - , - 4, -
+Ref: successfully pushed frame 4
+In pushing frames to ssimplus to video data
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 last decoded is 6
+push if ref
+first try to push Ref 5
+frame: 3
+proc: frameIndex, passIdx, decIdx = 3, 4, 6
+Grab scores.
+Frame: 3 FR Quality on Device ssimpluscore = 67
+Frame: 3 FR Quality on Device iphone6plus = 42
+Frame: 3 FR Quality on Device ipadair2 = 32
+Frame: 3 FR Quality on Device vt60 = 36
+Frame: 3 FR Quality on Device thinkpadw540 = 28
+Frame: 3 FR Quality on Device macbookpro = 33
+Scores are ready for frame 3
+frame: 4
+proc: frameIndex, passIdx, decIdx = 4, 4, 6
+Grab scores.
+Frame: 4 FR Quality on Device ssimpluscore = 67
+Frame: 4 FR Quality on Device iphone6plus = 42
+Frame: 4 FR Quality on Device ipadair2 = 32
+Frame: 4 FR Quality on Device vt60 = 36
+Frame: 4 FR Quality on Device thinkpadw540 = 28
+Frame: 4 FR Quality on Device macbookpro = 33
+Scores are ready for frame 4
+frame: 5
+proc: frameIndex, passIdx, decIdx = 5, 4, 6
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 last decoded is 7
+ref passed with return 0
+push: fr, dr,dd, pr,pd = 5: - , - 5, -
+Ref: successfully pushed frame 5
+In pushing frames to ssimplus to video data
+push: fr, dr,dd, pr,pd = 5: - , - - , 5 
+Dist: successfully pushed frame 5
+In pushing frames to ssimplus to video data
+push if dist 
+try push Dist 6
+push: fr, dr,dd, pr,pd = 6: - , - - , 6 
+Dist: successfully pushed frame 6
+In pushing frames to ssimplus to video data
+push if dist 
+try push Dist 7
+push if ref
+first try to push Ref 6
+ref passed with return 0
+push: fr, dr,dd, pr,pd = 6: - , - 6, -
+Ref: successfully pushed frame 6
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 last decoded is 7
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 last decoded is 8
+frame: 5
+proc: frameIndex, passIdx, decIdx = 5, 6, 7
+Grab scores.
+Frame: 5 FR Quality on Device ssimpluscore = 67
+Frame: 5 FR Quality on Device iphone6plus = 42
+Frame: 5 FR Quality on Device ipadair2 = 32
+Frame: 5 FR Quality on Device vt60 = 36
+Frame: 5 FR Quality on Device thinkpadw540 = 28
+Frame: 5 FR Quality on Device macbookpro = 33
+Scores are ready for frame 5
+frame: 6
+proc: frameIndex, passIdx, decIdx = 6, 6, 7
+Grab scores.
+Frame: 6 FR Quality on Device ssimpluscore = 67
+Frame: 6 FR Quality on Device iphone6plus = 42
+Frame: 6 FR Quality on Device ipadair2 = 32
+Frame: 6 FR Quality on Device vt60 = 36
+Frame: 6 FR Quality on Device thinkpadw540 = 28
+Frame: 6 FR Quality on Device macbookpro = 33
+Scores are ready for frame 6
+frame: 7
+proc: frameIndex, passIdx, decIdx = 7, 6, 7
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 last decoded is 8
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 last decoded is 9
+Enough frame count has been decoded.
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Test_480x320.mp4 has finished. Number of frames decode is 9
+push: fr, dr,dd, pr,pd = 7: - , - - , 7 
+Dist: successfully pushed frame 7
+In pushing frames to ssimplus to video data
+push if dist 
+try push Dist 8
+push: fr, dr,dd, pr,pd = 8: - , - - , 8 
+Dist: successfully pushed frame 8
+In pushing frames to ssimplus to video data
+push if dist 
+try push Dist 9
+Progressive
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 last decoded is 9
+Enough frame count has been decoded.
+Decoding C:\Users\liuxu\Documents\OneDrive\QualityTesting\TestData\1-Resolutions\1-3over2\Ref_1440x960.mp4 has finished. Number of frames decode is 9
+In pushing frames to ssimplus to video data
+push if ref
+first try to push Ref 7
+ref passed with return 0
+push: fr, dr,dd, pr,pd = 7: - , - 7, -
+Ref: successfully pushed frame 7
+In pushing frames to ssimplus to video data
+push if ref
+first try to push Ref 8
+frame: 7
+proc: frameIndex, passIdx, decIdx = 7, 7, 9
+Grab scores.
+Frame: 7 FR Quality on Device ssimpluscore = 67
+Frame: 7 FR Quality on Device iphone6plus = 42
+Frame: 7 FR Quality on Device ipadair2 = 32
+Frame: 7 FR Quality on Device vt60 = 36
+Frame: 7 FR Quality on Device thinkpadw540 = 28
+Frame: 7 FR Quality on Device macbookpro = 33
+Scores are ready for frame 7
+frame: 8
+proc: frameIndex, passIdx, decIdx = 8, 7, 9
+ref passed with return 0
+push: fr, dr,dd, pr,pd = 8: - , - 8, -
+Ref: successfully pushed frame 8
+In pushing frames to ssimplus to video data
+push if ref
+first try to push Ref 9
+push: fr, dr,dd, pr,pd = 9: - , - - , 9 
+Dist: successfully pushed frame 9
+ref passed with return 0
+push: fr, dr,dd, pr,pd = 9: - , - 9, -
+Ref: successfully pushed frame 9
+frame: 8
+proc: frameIndex, passIdx, decIdx = 8, 9, 9
+Grab scores.
+Frame: 8 FR Quality on Device ssimpluscore = 67
+Frame: 8 FR Quality on Device iphone6plus = 42
+Frame: 8 FR Quality on Device ipadair2 = 32
+Frame: 8 FR Quality on Device vt60 = 36
+Frame: 8 FR Quality on Device thinkpadw540 = 28
+Frame: 8 FR Quality on Device macbookpro = 33
+Scores are ready for frame 8
+frame: 9
+proc: frameIndex, passIdx, decIdx = 9, 9, 9
+Grab scores.
+Frame: 9 FR Quality on Device ssimpluscore = 67
+Frame: 9 FR Quality on Device iphone6plus = 42
+Frame: 9 FR Quality on Device ipadair2 = 32
+Frame: 9 FR Quality on Device vt60 = 36
+Frame: 9 FR Quality on Device thinkpadw540 = 28
+Frame: 9 FR Quality on Device macbookpro = 33
+Scores are ready for frame 9
+frame: 10
+proc: frameIndex, passIdx, decIdx = 10, 9, 9
+proc: frameIndex, passIdx, decIdx = 10, 9, 9
+VQA_FR_SSIMplus task is finished
+Resources released

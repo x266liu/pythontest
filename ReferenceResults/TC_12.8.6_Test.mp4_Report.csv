@@ -1,0 +1,38 @@
+ SSIMWave's Video Quality-of-Experience Monitor with a CLI for Windows (SQM-CLI-Win), Version 1.5.31.383
+
+Reference video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\DirecTV\Ref.mpg,PID, N/A
+Test video, F:\Kai\SQM\AutoTestingFramework\Win32\TestData\12-BugFix\DirecTV\Test.mp4,PID, 1
+
+Report Date, 30-Jan, Report Time, 13:59:17
+Test Video's Bit-rate, 5869 kbps, Reference Video's Bit-rate, 1188202 kbps
+Test Video's Resolution, 1920x1080, Reference Video's Resolution, 1920x1080
+Test Video's Framerate, 29.97, Reference Video's Framerate, 29.97
+Number of frames processed, 10
+
+SSIMplus QoE Scores Summary
+Statistic,Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ
+Maximum,99,67,67,75,75,72,72,73,73,70,70,72,72
+Minimum,98,62,62,72,72,68,68,69,69,66,66,68,68
+Mean,98.5,64.7,64.5,73.7,73.4,70,69.7,71.4,71,68,68,70.1,69.7
+Standard Deviation,0.2778,1.767,1.581,1.16,1.174,1.491,1.337,1.43,1.247,1.491,1.491,1.37,1.337
+Excellent (81-100),100%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Good (61-80),0%,100%,100%,100%,100%,100%,100%,100%,100%,100%,100%,100%,100%
+Fair (41-60),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Poor (21-40),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Bad (0-20),0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
+Below threshold (0-70),0%,100%,100%,0%,0%,60%,70%,30%,40%,100%,100%,60%,70%
+Reference Video Temporal Alignment Offset (frames),1000
+Test Video Temporal Alignment Offset (frames),1000
+
+  SSIMplus QoE Scores 
+Reference frame index, Test frame index, Source_Quality,SSIMplusCore_PF,SSIMplusCore_AQ,iPhone 6 Plus_PF,iPhone 6 Plus_AQ,iPad Air 2_PF,iPad Air 2_AQ,VT60_PF,VT60_AQ,ThinkPad W540_PF,ThinkPad W540_AQ,Macbook Pro_PF,Macbook Pro_AQ,PSNR (YUV),MSE (YUV)
+1001,1001,99,67,67,75,75,72,72,73,73,70,70,72,72,36.59,14.27
+1002,1002,98,67,66,75,75,72,71,73,72,70,70,72,71,37.11,12.66
+1003,1003,98,66,66,75,74,71,71,73,72,69,69,71,71,36.99,13.01
+1004,1004,98,66,65,74,74,71,70,72,72,69,69,71,70,35.92,16.66
+1005,1005,98,65,65,74,74,70,70,72,71,68,68,70,70,36.52,14.48
+1006,1006,98,64,64,74,73,70,69,71,71,68,68,70,69,36.56,14.35
+1007,1007,99,64,64,73,73,69,69,71,70,67,67,69,69,35.79,17.14
+1008,1008,99,63,63,73,72,69,69,70,70,67,67,69,69,36.37,15.01
+1009,1009,99,63,63,72,72,68,68,70,70,66,66,69,68,36.29,15.26
+1010,1010,99,62,62,72,72,68,68,69,69,66,66,68,68,35.55,18.1
