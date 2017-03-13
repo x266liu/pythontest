@@ -162,8 +162,9 @@ class TC_14_1_Class(object):
                 continue                
             
             
-            
-            generateTestResultFile.testResultObject.verify(elemetnAttributeDictionary, distortedVideosList, rfPath, fp, reportFileName, INDEX, lfPath, expectedresultList, tcNumber, videoCommandList, self.countSupportedFormats);
+            getFormat = str(distortedVideosList[0])
+            goldReportPath = os.path.join(fp.paths.goldFileFolder, reportFileName + str(INDEX + 1) + '_' + str(distortedVideosList[0]) + "_Report.csv")
+            generateTestResultFile.testResultObject.verify(elemetnAttributeDictionary, getFormat, goldReportPath, rfPath, fp, reportFileName, INDEX, lfPath, expectedresultList, tcNumber, videoCommandList, self.countSupportedFormats);
             
         generateTestResultFile.testResultObject.closeTestFile()
 

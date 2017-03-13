@@ -131,59 +131,18 @@ class TC_6_2_Class(object):
             
             ################ Verification ################ 
             #
-            conditionString = elemetnAttributeDictionary.get('conditions')
-            conditions = conditionString.split(";")
-            getFormat = str(distortedVideosList[INDEX])
-            
-            # Check the csv report matches the gold file
-            testReportPath = rfPath
-            goldReportPath = os.path.join(fp.paths.goldFileFolder, reportFileName + str(INDEX + 1) + '_' + str(distortedVideosList[INDEX]) + "_Report.csv")
-            
-            #prepare the warning and error meg
-            elineinfo = ""
-            wlineinfo = ""
-            
             if not os.path.exists(lfPath):
                 print(str(INDEX + 1) + " FAIL - Format " + getFormat + " is NOT supported. Failing condition: " + conditions[1] + "\n")
                 generateTestResultFile.testResultObject.writeInTestFile(tcNumber + "." + str(INDEX + 1) + "," +expectedresultList[0]+ "," + "FAIL" + "," + getFormat[-3:] + ',' + " ".join(videoCommandList) +','+ "   Failing condition: " + conditions[1] +wlineinfo+'  Thelogfile is not exist'+ ".\n")
                 generateTestResultFile.testResultObject.TotalNumberOfFailTC +=1
                 generateTestResultFile.testResultObject.totalNumberOfTC += 1  
                 continue    
+            getFormat = str(distortedVideosList[INDEX])
             
-
-            with open (lfPath) as fplogfile:
-                for line in fplogfile:
-                    if 'Error' in line:
-                        elineinfo =elineinfo+ line.strip();
-                    if 'Warning' in line:
-                        wlineinfo =wlineinfo+ line.strip();
-                        
-            # Check the log files shows it finished
-            if not ('task is finished' in open(lfPath).read()):
-                failinfo ="   The string 'task is finished' is NOT found in the log file" 
-                print(str(INDEX + 1) + " FAIL - Format " + getFormat + " is NOT supported. Failing condition: " + failinfo +"\n")
-                generateTestResultFile.testResultObject.writeInTestFile(tcNumber + "." + str(INDEX + 1) + "," +expectedresultList[0]+ "," + "FAIL" + "," + getFormat[-3:] + ',' + " ".join(videoCommandList) +','+  failinfo +';'+ elineinfo+wlineinfo+ ".\n")
-                generateTestResultFile.testResultObject.TotalNumberOfFailTC +=1
-            elif (not fp.util.verifyReportCsvPair(testReportPath, goldReportPath)):                 
-                print(str(INDEX + 1) + " FAIL - Format " + getFormat + " is NOT supported. Failing condition: " + conditions[1] + "\n")  
-                generateTestResultFile.testResultObject.writeInTestFile(tcNumber + "." + str(INDEX + 1) + "," +expectedresultList[0]+ "," + "FAIL" + "," + getFormat[-3:] + ',' + " ".join(videoCommandList) +','+  "   Failing condition: " + conditions[1] +wlineinfo+ ".\n")
-                generateTestResultFile.testResultObject.TotalNumberOfFailTC +=1  
-            # Check the perf log is within the allowed range
-            elif not fp.util.verifyPerfLog(eAD):
-                print(str(INDEX + 1) + " FAIL - Format " + getFormat + " is NOT supported. Failing condition: " + conditions[2] + "\n")  
-                generateTestResultFile.testResultObject.writeInTestFile(tcNumber + "." + str(INDEX + 1) + "," +expectedresultList[0]+ "," + "FAIL" + "," + getFormat[-3:] + ',' + " ".join(videoCommandList) +','+  conditions[2] +wlineinfo+ ".\n")
-                generateTestResultFile.testResultObject.TotalNumberOfFailTC +=1
-            else:
-                passDescription = ""
-                for val in conditions:
-                    passDescription += "   " + val + " as expected. "
-                    
-                print(str(INDEX + 1) + " PASS - Format " + getFormat + " is supported.\n")  
-                generateTestResultFile.testResultObject.writeInTestFile(tcNumber + "." + str(INDEX + 1) + "," +expectedresultList[0]+ "," + "PASS" + "," + getFormat[-3:] + ',' + " ".join(videoCommandList) +','+  passDescription + " " +wlineinfo+ "\n")
-                generateTestResultFile.testResultObject.TotalNumberOfPassTC += 1
-                self.countSupportedFormats += 1
-             
-            generateTestResultFile.testResultObject.totalNumberOfTC += 1           
+           
+            goldReportPath = os.path.join(fp.paths.goldFileFolder, reportFileName + str(INDEX + 1) + '_' + str(distortedVideosList[INDEX]) + "_Report.csv")
+            
+            generateTestResultFile.testResultObject.verify1(elemetnAttributeDictionary, getFormat, goldReportPath, rfPath, fp, reportFileName, INDEX, lfPath, expectedresultList, tcNumber, videoCommandList, self.countSupportedFormats);    
             
 
         #generateTestResultFile.testResultObject.TotalNumberOfFailTC += numberOfVideos - self.countSupportedFormats  
