@@ -16,7 +16,7 @@ for file in glob.glob(os.path.join('./TestModules', "*.*")):
         tcNumChars = tcRegex.search(tcName)
         if tcNumChars:
             tcNumChars = tcNumChars.group(1)
-        else:
+        else: 
             raise Exception('TC regex string malformed: ' + tcName)
 
         tcObjName = tcNumChars + 'ClassObject'
@@ -150,7 +150,7 @@ class SSIMWaveCommandBasedVersionTesting:
                 os.remove(os.path.join('..','TestReport','test_Results.csv'))
         
         generateTestResultFile.testResultObject.openTestFile()
-        generateTestResultFile.testResultObject.writeInTestFile("Test Case Number,Expected(Pass or Fail), Result, Description,Command, Conditions Checked")
+        generateTestResultFile.testResultObject.writeInTestFile("Test Case Number,Expected(Pass or Fail),  Result, Equal, Description,Command, Conditions Checked")
         generateTestResultFile.testResultObject.writeInTestFile("\n")
 
         
